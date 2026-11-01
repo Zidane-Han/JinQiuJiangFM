@@ -1,0 +1,23 @@
+Escapepod on lihtne ja kiire rakendus, mis läheneb taskuhäälingute kuulamisele minimalistlikult ja see ei pruugi kõigile meeldida. Rakendus koosneb ainult kahest ekraanivaatest: kõikide taskuhäälingute loend ja ühe taskuhäälingu osade loend. Escapepodil puudub taskuhäälingute leidmise funktsioon, pakkudes ainult lihtsat otsinguvõimalust. Lisaks avab ta veebibrauserist klõpsitavad taskuhäälingute RSS-lingid.
+
+
+KORDUMA KIPPUVAD KÜSIMUSED
+
+KAS ESCAPEPODIL ON ESITUSJÄRJEKORD?
+Escapepodil on lihtne järgmise esituse funktsioon. Kui kuulad ühte osa, saad järgmise osa lisada järjekorda, kui vajutad nuppu "Esita". Nii avanebki võimalus järgmise esituse määramiseks.
+
+MIS ON VAIKESEADISTUSED?
+- Automaatne uuendus ei laadi faile alla mobiilsidevõrgu kaudu.
+- Escapepod hoiab vaikimisi ainult kahte osa.
+
+KAS ESCAPEPOD SAAB HOIDA ROHKEM KUI KAHTE OSA?
+Escapepod püüab hoida osade arvu minimaalsena. Siin on reeglid selle kohta:
+- Escapepod säilitab alati viimased kaks osa.
+- Osad, mille kuulamist oled alustanud või käsitsi alla laadinud, jäävad ka alles.
+- Osad, mida sa pole kahe nädala jooksul kuulanud, eemaldatakse.
+
+KAS ESCAPEPOD TOETAB OPMLi?
+Kasutades rakenduse seadistuste vastavat valikut saad sa importida ja eksportida taskuhäälingute loendit OPML-vormingu abil. Lisaks hoiab Escapepod ajakohast OPML-faili kaustas /Android/data/org.y20k.escapepod/files/collection/.
+
+KUST TULEVAD ESCAPEPODI OTSINGU TULEMUSED?
+Escapepod otsib vaikimisi Podcastindex.org (https://podcastindex.org/) veebiteenuse andmebaasist. Lisaks võid seadistest kasutusele võtta gpodder.net (https://gpodder.net/directory/) teenuse.

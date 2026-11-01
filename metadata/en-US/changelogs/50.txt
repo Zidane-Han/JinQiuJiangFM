@@ -1,0 +1,9 @@
+# v1.6.4 - Es ist einfach Rockmusik
+
+**2026-02-15**
+
+Changes in this version:
+- new episode title search feature
+- minor bug fixes
+- updated translations
+- updated software libraries

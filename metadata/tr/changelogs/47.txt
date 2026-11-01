@@ -1,0 +1,6 @@
+# v1.6.1 - Es ist einfach Rockmusik
+
+**10 Ekim 2025**
+
+Bu sürümdeki değişiklikler:
+- Geçerli F-Droid derleme süreciyle uyumluluğu korumak için gradlePluginVersion değeri 8.11.1 olarak ayarlandı

@@ -1,0 +1,6 @@
+# versioon 1.0.3 - Sag Alles Ab
+
+**2021-03-24**
+
+- parandatud RSS-voo töötlemine sealt taskuhäälingu kaanepildi tuvastamiseks
+- veateate kuvamisel tekkiva kokkujooksmise parandus

@@ -1,0 +1,9 @@
+# v1.5.2 - In Höchsten Höhen
+
+**2024-09-12**
+
+Changes in this version:
+- playback resumption finally works
+- pull to refresh now also works in the episode list of a podcast
+- updated translations
+- small bug fixes

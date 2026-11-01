@@ -1,0 +1,11 @@
+# v1.6.0 - Es ist einfach Rockmusik
+
+**8 Ekim 2025**
+
+Bu sürümdeki değişiklikler:
+- yeni yüzen oynatıcı
+- değişken rengi etkinleştirmek için yeni ayar (Android 12+)
+- kullanılmayan indirmelerin düzenli olarak temizlenmesini devre dışı bırakmak için yeni ayar
+- podcast listesinde resim yükleme iyileştirildi
+- Android 16 uyumluluğu (SDK 36)
+- çeviriler güncellendi

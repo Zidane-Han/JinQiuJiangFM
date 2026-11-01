@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    android:background="?attr/colorSurfaceContainerLow">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/episode_date"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="4dp"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:textAppearance="@style/TextAppearance.Material3.BodyMedium"
+        android:textColor="?attr/colorOnSurface"
+        app:layout_constraintEnd_toStartOf="@+id/episode_download_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="@string/sample_text_episode_0_date" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/episode_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="4dp"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:textAppearance="@style/TextAppearance.Material3.BodyMedium"
+        android:textColor="?attr/colorOnSurface"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/episode_download_button"
+        app:layout_constraintStart_toStartOf="@+id/episode_date"
+        app:layout_constraintTop_toBottomOf="@+id/episode_date"
+        tools:text="@string/sample_text_episode_0_title" />
+
+    <ImageButton
+        android:id="@+id/episode_download_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="4dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="@string/descr_card_small_download_button"
+        android:paddingStart="2dp"
+        android:paddingTop="2dp"
+        android:paddingEnd="2dp"
+        android:paddingBottom="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/episode_delete_button"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_cloud_download_36dp" />
+
+    <ImageButton
+        android:id="@+id/episode_delete_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="4dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="@string/descr_card_delete_episode_button"
+        android:paddingStart="4dp"
+        android:paddingTop="4dp"
+        android:paddingEnd="4dp"
+        android:paddingBottom="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/episode_play_button"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_delete_24dp" />
+
+    <ProgressBar
+        android:id="@+id/episode_playback_progress"
+        android:layout_width="36dp"
+        android:layout_height="0dp"
+        android:background="@drawable/circular_progressbar_background"
+        android:contentDescription="@string/descr_card_playback_indicator"
+        android:indeterminateOnly="false"
+        android:max="12"
+        android:progress="12"
+        android:progressDrawable="@drawable/circular_progressbar"
+        android:rotation="270"
+        android:scaleY="-1"
+        app:layout_constraintBottom_toBottomOf="@+id/episode_play_button"
+        app:layout_constraintEnd_toEndOf="@+id/episode_play_button"
+        app:layout_constraintStart_toStartOf="@+id/episode_play_button"
+        app:layout_constraintTop_toTopOf="@+id/episode_play_button"
+        app:layout_constraintVertical_bias="0.0"
+        tools:visibility="visible" />
+
+    <ImageButton
+        android:id="@+id/episode_play_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="4dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="@string/descr_card_small_playback_button"
+        android:paddingStart="8dp"
+        android:paddingTop="8dp"
+        android:paddingEnd="8dp"
+        android:paddingBottom="8dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_play_symbol_24dp" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/episode_playback_views"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="visible"
+        app:constraint_referenced_ids="episode_delete_button,episode_play_button,episode_playback_progress" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

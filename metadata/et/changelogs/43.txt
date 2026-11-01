@@ -1,0 +1,9 @@
+# versioon 1.5.1 - In Höchsten Höhen
+
+**2024-01-26**
+
+Muudatused selles versioonis:
+- parem jõudlus kerimisel
+- episoodide filter jääb meelde
+- uuendatud tõlked
+- väikesed veaparandused

@@ -1,0 +1,6 @@
+v1.6.6 - Es ist einfach Rockmusik
+2026-07-29
+
+- Verbesserte Verarbeitung von Feeds, Downloads und Wiedergabe bei fehlerhaften oder bösartigen Daten
+- Bei Wiedergabe- und Speicherfehlern wird nun eine Meldung angezeigt, anstatt dass der Vorgang stillschweigend fehlschlägt
+- Aktualisierte Übersetzungen

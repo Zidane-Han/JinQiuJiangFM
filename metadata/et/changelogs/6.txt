@@ -1,0 +1,7 @@
+# versioon 0.7.1 - Drüben Auf Dem Hügel
+
+**2019-10-02**
+
+- uus võimalus taasesituse kiirust juhtida
+- kui rss-voos on osade pikemad kirjeldused, siis kuvame nad nüüd märkustes
+- veaparandused

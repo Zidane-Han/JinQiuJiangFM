@@ -1,0 +1,7 @@
+# v1.1.0 - Mein Neues Hobby
+
+**2022-04-12**
+
+- revisión del diseño que hace uso de los elementos y colores de "Material Design 3
+- mejor manejo de los cambios de velocidad de reproducción
+- traducciones actualizadas

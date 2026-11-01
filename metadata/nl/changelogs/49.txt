@@ -1,0 +1,8 @@
+# v1.6.3 - Es ist einfach Rockmusik
+
+**2025-12-12**
+
+Changes in this version:
+- fixes a show notes parsing bug
+- fixes a couple of minor display bugs
+- updated translations

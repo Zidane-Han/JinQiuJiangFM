@@ -1,0 +1,29 @@
+Escapepod ist eine unkomplizierte und leichtgewichtige App, die einen minimalistischen Ansatz für das Hören von Podcasts verfolgt, was vielleicht nicht jedem gefällt. Die App besteht aus nur zwei Bildschirmen: einer Liste aller Podcasts und einer Liste der Episoden eines einzelnen Podcasts. Escapepod verfügt nicht über eine Podcast-Entdeckungsfunktion, sondern bietet nur eine einfache Suchfunktion. Außerdem werden RSS-Podcast-Links geöffnet, wenn sie in einem Webbrowser angetippt werden.
+
+APK ÜBERPRÜFEN
+---------
+
+Die auf Codeberg Releases veröffentlichten APKs sind mit dem folgenden Zertifikat signiert.
+SHA-256: 61:05:14:5F:84:E5:CB:D6:97:F0:F6:E1:2C:97:77:04:2E:9B:2D:B6:67:A7:FF:0D:A4:12:F6:74:35:31:6D:D8
+
+HÄUFIGE FRAGEN
+------------------
+
+HAT ESCAPEPOD EINE WIEDERGABE-WARTESCHLANGE?
+Escapepod hat eine einfache Folgefunktion. Tippe auf die Wiedergabe einer Episode, während du eine andere hörst. Du bekommst dann die Möglichkeit, sie in den nächsten Platz einzufügen.
+
+WAS SIND DIE STANDARDEINSTELLUNGEN?
+- Auto-Update lädt keine Dateien über das Mobilfunknetz herunter
+- Escapepod behält standardmäßig nur zwei Episoden
+
+KANN ESCAPEPOD MEHR ALS ZWEI EPISODEN BEHALTEN?
+Escapepod versucht, die Anzahl der Episoden zu reduzieren. Hier sind die Regeln dafür:
+- Escapepod behält die letzten beiden Episoden
+- Episoden, die gestartet oder manuell heruntergeladen wurden, bleiben ebenfalls erhalten
+- Episoden, die seit mehr als zwei Wochen nicht mehr angehört wurden, werden entfernt.
+
+UNTERSTÜTZT ESCAPEPOD OPML?
+Du kannst eine OPML-formatierte Podcast-Liste über die entsprechende Option in den Einstellungen der App importieren. Die aktuelle Podcast-Sammlung kann auch über die Einstellungen exportiert werden. Die aktuelle Podcast-Sammlung kann über Einstellungen exportiert werden. Zusätzlich speichert Escapepod eine aktuelle OPML-Datei im Ordner /Android/data/org.y20k.escapepod/files/collection/.
+
+WOHER KOMMEN DIE PODCAST-SUCHERGEBNISSE?
+Escapepod durchsucht standardmäßig die Online-Datenbank Podcastindex.org (https://podcastindex.org/) - oder bei Änderung der entsprechenden Einstellung die Online-Datenbank gpodder.net (https://gpodder.net/directory/).

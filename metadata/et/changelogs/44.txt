@@ -1,0 +1,9 @@
+# versioon 1.5.2 - In Höchsten Höhen
+
+**2024-09-12**
+
+Muudatused siin versioonis:
+- taasesituse jätkamine lõpuks toimib
+- alla viipamine toimib nüüd ka taskuhäälingu osade loendis
+- uuendatud tõlked
+- väikesed veaparandused

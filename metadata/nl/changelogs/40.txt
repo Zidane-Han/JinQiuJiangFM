@@ -1,0 +1,10 @@
+# v1.1.1 - Mein Neues Hobby
+
+**2023-03-17**
+
+- Nieuw: Escapepod maakt voortaan gebruik van de media3-afspeelbibliotheek;
+- Verbeterd: voortaan wordt de juiste afspeelsnelheidplayback onthouden;
+- Verbeterd: monochroom app-pictogram;
+- Bijgewerkt: vertalingen.
+
+*Gefeliciteerd met je tachtigste verjaardag, pap.*

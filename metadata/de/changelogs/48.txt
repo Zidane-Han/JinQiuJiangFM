@@ -1,0 +1,10 @@
+# v1.6.2 - Es ist einfach Rockmusik
+
+**2025-11-05**
+
+Änderungen in dieser Version:
+- Legacy-Inhaltstypen zur Zulassungsliste für unterstützte Audiodateien hinzugefügt (verbessert die Kompatibilität)
+- Randloses Anzeige für ältere Android-Versionen aktiviert
+- Fehler beim Zwischenspeichern von Podcast-Titelbildern behoben
+- Fehler bei der Verarbeitung der Warteschlange „Als Nächstes“ behoben
+- Übersetzungen aktualisiert

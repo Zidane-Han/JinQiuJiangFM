@@ -1,0 +1,9 @@
+# versioon 1.1.2 - Mein Neues Hobby
+
+**2023-10-22**
+
+Muudatused selles versioonis:
+- uuendatud ikoonikomplekt (Material Symbols)
+- uuendatud rakenduse ikooni taust
+- uuendatud tõlked
+- väikesed veaparandused

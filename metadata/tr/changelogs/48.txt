@@ -1,0 +1,10 @@
+# v1.6.2 - Es ist einfach Rockmusik
+
+**5 Kasım 2025**
+
+Bu sürümdeki değişiklikler:
+- desteklenen ses dosyaları için izin listesine eski içerik türleri eklendi (uyumluluğu artırır)
+- eski Android sürümleri için kenardan kenara görüntüleme etkinleştirildi
+- podcast kapağı ön belleğe alma hatası düzeltildi
+- sıradaki kuyruk işleme hatası düzeltildi
+- çeviriler güncellendi

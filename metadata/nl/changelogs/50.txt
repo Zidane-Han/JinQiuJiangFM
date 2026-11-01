@@ -1,0 +1,9 @@
+# v1.6.4 - Het is weer tijd voor rockmuziek
+
+**2026-02-15**
+
+Wijzigingslog:
+- Nieuw: zoek op afbeeldingstitels
+- Opgelost: kleine bugs
+- Bijgewerkt: vertalingen
+- Bijgewerkt: softwarebibliotheken

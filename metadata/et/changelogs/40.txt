@@ -1,0 +1,11 @@
+# versioon 1.1.1 - Mein Neues Hobby
+
+**2023-03-17**
+
+Muudatused selles versioonis:
+- Escapepod kasutab nüüd taasesituseks media3 teeki
+- taasesituse kiirus jääb nüüd korrektselt meelde
+- lisasime rakenduse mustvalge ikooni versiooni
+- tõlgete uuendused
+
+*Head kaheksakümnendat sünnipäeva, isa.*

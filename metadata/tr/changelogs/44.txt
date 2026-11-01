@@ -1,0 +1,9 @@
+# v1.5.2 - In Höchsten Höhen
+
+**12 Eylül 2024**
+
+Bu sürümdeki değişiklikler:
+- oynatma devam ettirme özelliği nihayet çalışıyor
+- yenilemek için çekme özelliği artık podcast bölüm listesinde de çalışıyor
+- çeviriler güncellendi
+- küçük hata düzeltmeleri

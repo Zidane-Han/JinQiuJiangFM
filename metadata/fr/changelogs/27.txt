@@ -1,0 +1,7 @@
+# v0.9.2 - Aber Hier Leben, Nein Danke
+
+**22/07/2020**
+
+- Nouveau paramètre pour contrôler les téléchargements en arrière-plan
+- Mise à jour des traductions
+- Quelques corrections de bugs mineurs

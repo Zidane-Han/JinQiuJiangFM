@@ -1,0 +1,11 @@
+# v1.6.0 - Es ist einfach Rockmusik
+
+**2025-10-08**
+
+Änderungen in dieser Version:
+- Neuer schwebender Player
+- Neue Einstellung zum Aktivieren dynamischer Farben (Android 12+)
+- Neue Einstellung zum Deaktivieren der regelmäßigen Bereinigung ungenutzter Downloads
+- Verbessertes Laden von Bildern in der Podcast-Liste
+- Kompatibilität mit Android 16 (SDK 36)
+- Aktualisierte Übersetzungen

@@ -1,0 +1,9 @@
+# v1.6.4 - Es ist einfach Rockmusik
+
+**15 Şubat 2026**
+
+Bu sürümdeki değişiklikler:
+- yeni bölüm başlığı arama özelliği
+- küçük hata düzeltmeleri
+- çeviriler güncellendi
+- yazılım kütüphaneleri güncellendi

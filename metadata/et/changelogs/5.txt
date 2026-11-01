@@ -1,0 +1,5 @@
+# versioon 0.7.0 - Drüben Auf Dem Hügel
+
+**2019-09-11**
+
+- esimene stabiilne versioon

@@ -1,0 +1,9 @@
+# versioon 1.5.0 - In Höchsten Höhen
+
+**2024-01-04**
+
+Muudatused selles versioonis:
+- täiesti uus osade/episoodide loend
+- 14 päeva kuulamata osade automaatse kustutamise võimalus
+- uuendatud tõlked
+- väikesed veaparandused

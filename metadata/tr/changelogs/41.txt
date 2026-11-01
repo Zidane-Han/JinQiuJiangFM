@@ -1,0 +1,9 @@
+# v1.1.2 - Mein Neues Hobby
+
+**22 Ekim 2023**
+
+Bu sürümdeki değişiklikler:
+- simge seti güncellendi (Material simgeleri)
+- uygulama simgesi arka planını güncellendi
+- çeviriler güncellendi
+- küçük hata düzeltmeleri

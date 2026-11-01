@@ -1,0 +1,5 @@
+# versioon 1.0.1 - Sag Alles Ab
+
+**2021-03-13**
+
+- parandus tagab F-Droidi reeglite järgimise: mittevajalik suletud lähtekoodiga sõltuvus on eemaldatud (vt https://codeberg.org/y20k/escapepod/issues64)

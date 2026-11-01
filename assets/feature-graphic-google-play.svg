@@ -1,0 +1,911 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" viewBox="0 0 1024 500" version="1.1"
+    id="svg9807" sodipodi:docname="feature-graphic-google-play.svg" inkscape:version="0.92.4 5da689c313, 2019-01-14"
+    width="1024" height="500" inkscape:export-filename="/home/solaris/Desktop/escapepod/metadata/en-US/images/featureGraphic.png"
+    inkscape:export-xdpi="96" inkscape:export-ydpi="96">
+  <metadata
+     id="metadata9811">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Bright Star Catalog</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2560"
+     inkscape:window-height="1376"
+     id="namedview9809"
+     showgrid="false"
+     inkscape:zoom="0.81"
+     inkscape:cx="30.76742"
+     inkscape:cy="292.24774"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showguides="false" />
+  <title
+     id="title2">Bright Star Catalog</title>
+  <defs
+     id="defs151">
+    <style
+       id="style4"><!-- spectral types -->
+
+
+
+
+
+    .sO { fill: url(#sO); }
+    .sB { fill: url(#sB); }
+    .sA { fill: url(#sA); }
+    .sF { fill: url(#sF); }
+    .sG { fill: url(#sG); }
+    .sK { fill: url(#sK); }
+    .sM { fill: url(#sM); }
+    .sR { fill: url(#sR); }
+    .sS { fill: url(#sS); }
+    .sN { fill: url(#sN); }
+    .sW { fill: url(#sW); }
+    .sC { fill: url(#sC); }
+    .hi { stroke: yellow; stroke-width: 6; stroke-opacity: .6667; }
+    .cc { cursor: default; }
+    rect.ccHi { fill: yellow; }
+    </style>
+    <radialGradient
+       id="sO">
+      <stop
+         stop-color="#ccccff"
+         offset=".75"
+         id="stop6" />
+      <stop
+         stop-color="black"
+         stop-opacity="0"
+         offset="1"
+         id="stop8" />
+    </radialGradient>
+    <radialGradient
+       id="sB">
+      <stop
+         stop-color="#eaeaff"
+         offset=".75"
+         id="stop11" />
+      <stop
+         stop-color="black"
+         stop-opacity="0"
+         offset="1"
+         id="stop13" />
+    </radialGradient>
+    <radialGradient
+       id="sA">
+      <stop
+         stop-color="#ffffff"
+         offset=".75"
+         id="stop16" />
+      <stop
+         stop-color="black"
+         stop-opacity="0"
+         offset="1"
+         id="stop18" />
+    </radialGradient>
+    <radialGradient
+       id="sF">
+      <stop
+         stop-color="#ffffea"
+         offset=".75"
+         id="stop21" />
+      <stop
+         stop-color="black"
+         stop-opacity="0"
+         offset="1"
+         id="stop23" />
+    </radialGradient>
+    <radialGradient
+       id="sG">
+      <stop
+         stop-color="#ffffcc"
+         offset=".75"
+         id="stop26" />
+      <stop
+         stop-color="black"
+         stop-opacity="0"
+         offset="1"
+         id="stop28" />
+    </radialGradient>
+    <radialGradient
+       id="sK">
+      <stop
+         stop-color="#ffeacc"
+         offset=".75"
+         id="stop31" />
+      <stop
+         stop-color="black"
+         stop-opacity="0"
+         offset="1"
+         id="stop33" />
+    </radialGradient>
+    <radialGradient
+       id="sM">
+      <stop
+         stop-color="#ffcc99"
+         offset=".75"
+         id="stop36" />
+      <stop
+         stop-color="black"
+         stop-opacity="0"
+         offset="1"
+         id="stop38" />
+    </radialGradient>
+    <radialGradient
+       id="sR">
+      <stop
+         stop-color="#ffcc99"
+         offset=".75"
+         id="stop41" />
+      <stop
+         stop-color="black"
+         stop-opacity="0"
+         offset="1"
+         id="stop43" />
+    </radialGradient>
+    <radialGradient
+       id="sS">
+      <stop
+         stop-color="#ffcc99"
+         offset=".75"
+         id="stop46" />
+      <stop
+         stop-color="black"
+         stop-opacity="0"
+         offset="1"
+         id="stop48" />
+    </radialGradient>
+    <radialGradient
+       id="sN">
+      <stop
+         stop-color="#ff9999"
+         offset=".75"
+         id="stop51" />
+      <stop
+         stop-color="black"
+         stop-opacity="0"
+         offset="1"
+         id="stop53" />
+    </radialGradient>
+    <radialGradient
+       id="sW">
+      <stop
+         stop-color="#ffffff"
+         offset=".75"
+         id="stop56" />
+      <stop
+         stop-color="black"
+         stop-opacity="0"
+         offset="1"
+         id="stop58" />
+    </radialGradient>
+    <radialGradient
+       id="sC">
+      <stop
+         stop-color="#ff7777"
+         offset=".75"
+         id="stop61" />
+      <stop
+         stop-color="black"
+         stop-opacity="0"
+         offset="1"
+         id="stop63" />
+    </radialGradient>
+    <!-- cross hair pointer to galactic center -->
+    <clipPath
+       id="chClip">
+      <!-- leave center of crosshairs free -->
+      <path
+         d="m 0,-100 a 100,100 0 0 1 0,200 100,100 0 0 1 0,-200 z m 0,90 a 20,20 0 0 0 0,20 20,20 0 0 0 0,-20 z"
+         id="path66"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <g
+       id="crosshairs"
+       clip-path="url(#chClip)"
+       style="fill:none;stroke:#add8e6;stroke-width:3">
+      <circle
+         cx="0"
+         cy="0"
+         r="30"
+         id="circle69" />
+      <line
+         x1="0"
+         x2="0"
+         y1="-40"
+         y2="40"
+         id="line71" />
+      <line
+         x1="-40"
+         x2="40"
+         y1="0"
+         y2="0"
+         id="line73" />
+    </g>
+    <!-- morning glow gradient -->
+    <radialGradient
+       cx="1000"
+       cy="1000"
+       r="900"
+       id="morning"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#555599"
+         stop-opacity="0.0"
+         offset="0"
+         id="stop76" />
+      <stop
+         stop-color="#555599"
+         stop-opacity="0.0"
+         offset="0.8"
+         id="stop78" />
+      <stop
+         stop-color="#555599"
+         stop-opacity="0.2"
+         offset="0.92"
+         id="stop80" />
+      <stop
+         stop-color="#555599"
+         stop-opacity="0.7"
+         offset="1"
+         id="stop82" />
+    </radialGradient>
+    <!-- hemisphere overlays: angle marks, eclipse marks, ... -->
+    <line
+       id="olhair"
+       x1="1000"
+       y1="100"
+       x2="1000"
+       y2="1900"
+       style="stroke:#32cd32;stroke-width:0.5" />
+    <clipPath
+       id="olClip">
+      <!-- leave center of inner coord-system free -->
+      <path
+         d="m 1000,-1000 a 2000,2000 0 0 1 0,4000 2000,2000 0 0 1 0,-4000 z m 0,1902 a 98,98 0 0 0 0,196 98,98 0 0 0 0,-196 z"
+         id="path86"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <g
+       id="overlay">
+      <g
+         clip-path="url(#olClip)"
+         id="g140"
+         style="fill:none;stroke:#32cd32">
+        <line
+           id="olline"
+           x1="1000"
+           y1="100"
+           x2="1000"
+           y2="1900"
+           style="stroke-width:2" />
+        <use
+           xlink:href="#olhair"
+           transform="rotate(10,1000,1000)"
+           id="use90"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%" />
+        <use
+           xlink:href="#olhair"
+           transform="rotate(20,1000,1000)"
+           id="use92"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%" />
+        <use
+           xlink:href="#olline"
+           transform="rotate(30,1000,1000)"
+           id="use94"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%" />
+        <use
+           xlink:href="#olhair"
+           transform="rotate(40,1000,1000)"
+           id="use96"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%" />
+        <use
+           xlink:href="#olhair"
+           transform="rotate(50,1000,1000)"
+           id="use98"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%" />
+        <use
+           xlink:href="#olline"
+           transform="rotate(60,1000,1000)"
+           id="use100"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%" />
+        <use
+           xlink:href="#olhair"
+           transform="rotate(70,1000,1000)"
+           id="use102"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%" />
+        <use
+           xlink:href="#olhair"
+           transform="rotate(80,1000,1000)"
+           id="use104"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%" />
+        <use
+           xlink:href="#olline"
+           transform="rotate(90,1000,1000)"
+           id="use106"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%" />
+        <use
+           xlink:href="#olhair"
+           transform="rotate(100,1000,1000)"
+           id="use108"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%" />
+        <use
+           xlink:href="#olhair"
+           transform="rotate(110,1000,1000)"
+           id="use110"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%" />
+        <use
+           xlink:href="#olline"
+           transform="rotate(120,1000,1000)"
+           id="use112"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%" />
+        <use
+           xlink:href="#olhair"
+           transform="rotate(130,1000,1000)"
+           id="use114"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%" />
+        <use
+           xlink:href="#olhair"
+           transform="rotate(140,1000,1000)"
+           id="use116"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%" />
+        <use
+           xlink:href="#olline"
+           transform="rotate(150,1000,1000)"
+           id="use118"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%" />
+        <use
+           xlink:href="#olhair"
+           transform="rotate(160,1000,1000)"
+           id="use120"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%" />
+        <use
+           xlink:href="#olhair"
+           transform="rotate(170,1000,1000)"
+           id="use122"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%" />
+        <circle
+           cx="1000"
+           cy="1000"
+           r="99"
+           id="circle124"
+           style="stroke-width:2" />
+        <circle
+           cx="1000"
+           cy="1000"
+           r="200"
+           id="circle126"
+           style="stroke-width:0.5" />
+        <circle
+           cx="1000"
+           cy="1000"
+           r="300"
+           id="circle128"
+           style="stroke-width:2" />
+        <circle
+           cx="1000"
+           cy="1000"
+           r="400"
+           id="circle130"
+           style="stroke-width:0.5" />
+        <circle
+           cx="1000"
+           cy="1000"
+           r="500"
+           id="circle132"
+           style="stroke-width:0.5" />
+        <circle
+           cx="1000"
+           cy="1000"
+           r="600"
+           id="circle134"
+           style="stroke-width:2" />
+        <circle
+           cx="1000"
+           cy="1000"
+           r="700"
+           id="circle136"
+           style="stroke-width:0.5" />
+        <circle
+           cx="1000"
+           cy="1000"
+           r="800"
+           id="circle138"
+           style="stroke-width:0.5" />
+      </g>
+      <path
+         d="m 1000,100 a 666,900 0 0 1 0,1800"
+         id="path142"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#ff0000;stroke-width:3" />
+      <circle
+         cx="1000"
+         cy="1000"
+         r="900"
+         id="circle144"
+         style="fill:url(#morning)" />
+      <circle
+         cx="1000"
+         cy="1000"
+         r="902"
+         id="circle146"
+         style="fill:none;stroke:#ffffff;stroke-width:4" />
+    </g>
+    <!-- text paths for overlay angle text -->
+    <path
+       id="c1"
+       d="m 1000,90 a 910,910 0 1 1 0,1820 910,910 0 1 1 0,-1820 z"
+       inkscape:connector-curvature="0" />
+    <!-- path used as textPath in #coordsys-n-text -->
+    <path
+       id="c2"
+       d="m 3000,90 a 910,910 0 1 1 0,1820 910,910 0 1 1 0,-1820 z"
+       inkscape:connector-curvature="0" />
+    <!-- path used as textPath in #coordsys-s-text -->
+    <filter
+       id="filter5622"
+       inkscape:label="Drop Shadow"
+       style="color-interpolation-filters:sRGB">
+      <feFlood
+         id="feFlood5612"
+         result="flood"
+         flood-color="rgb(0,0,0)"
+         flood-opacity="0.498039" />
+      <feComposite
+         id="feComposite5614"
+         result="composite1"
+         operator="in"
+         in2="SourceGraphic"
+         in="flood" />
+      <feGaussianBlur
+         id="feGaussianBlur5616"
+         result="blur"
+         stdDeviation="0.2"
+         in="composite1" />
+      <feOffset
+         id="feOffset5618"
+         result="offset"
+         dy="0.7"
+         dx="2" />
+      <feComposite
+         id="feComposite5620"
+         result="composite2"
+         operator="over"
+         in2="offset"
+         in="SourceGraphic" />
+    </filter>
+    <filter
+       id="filter4906"
+       inkscape:label="Drop Shadow"
+       style="color-interpolation-filters:sRGB">
+      <feFlood
+         id="feFlood4896"
+         result="flood"
+         flood-color="rgb(0,0,0)"
+         flood-opacity="0.498039" />
+      <feComposite
+         id="feComposite4898"
+         result="composite1"
+         operator="in"
+         in2="SourceGraphic"
+         in="flood" />
+      <feGaussianBlur
+         id="feGaussianBlur4900"
+         result="blur"
+         stdDeviation="0.3"
+         in="composite1" />
+      <feOffset
+         id="feOffset4902"
+         result="offset"
+         dy="1"
+         dx="1" />
+      <feComposite
+         id="feComposite4904"
+         result="composite2"
+         operator="over"
+         in2="offset"
+         in="SourceGraphic" />
+    </filter>
+    <style
+       id="style3854">.cls-1{fill:#fff;}</style>
+    <filter
+       id="filter1516"
+       inkscape:label="Drop Shadow"
+       style="color-interpolation-filters:sRGB;">
+      <feFlood
+         id="feFlood1506"
+         result="flood"
+         flood-color="rgb(60,64,67)"
+         flood-opacity="0.501961" />
+      <feComposite
+         id="feComposite1508"
+         result="composite1"
+         operator="in"
+         in2="SourceGraphic"
+         in="flood" />
+      <feGaussianBlur
+         id="feGaussianBlur1510"
+         result="blur"
+         stdDeviation="0.7"
+         in="composite1" />
+      <feOffset
+         id="feOffset1512"
+         result="offset"
+         dy="1.1"
+         dx="0" />
+      <feComposite
+         id="feComposite1514"
+         result="composite2"
+         operator="over"
+         in2="offset"
+         in="SourceGraphic" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow"
+       id="filter5622-2">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood5612-3" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite5614-9" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="0.2"
+         result="blur"
+         id="feGaussianBlur5616-9" />
+      <feOffset
+         dx="2"
+         dy="0.7"
+         result="offset"
+         id="feOffset5618-7" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite5620-0" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow"
+       id="filter4906-3">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood4896-9" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite4898-8" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="0.3"
+         result="blur"
+         id="feGaussianBlur4900-6" />
+      <feOffset
+         dx="1"
+         dy="1"
+         result="offset"
+         id="feOffset4902-5" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite4904-7" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow"
+       id="filter1080">
+      <feFlood
+         flood-opacity="1"
+         flood-color="rgb(60,64,67)"
+         result="flood"
+         id="feFlood1070" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite1072" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="2"
+         result="blur"
+         id="feGaussianBlur1074" />
+      <feOffset
+         dx="1.5"
+         dy="2"
+         result="offset"
+         id="feOffset1076" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite1078" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow"
+       id="filter1104">
+      <feFlood
+         flood-opacity="1"
+         flood-color="rgb(60,64,67)"
+         result="flood"
+         id="feFlood1094" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite1096" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="2"
+         result="blur"
+         id="feGaussianBlur1098" />
+      <feOffset
+         dx="1.5"
+         dy="1.5"
+         result="offset"
+         id="feOffset1100" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite1102" />
+    </filter>
+    <filter
+       id="filter5414"
+       inkscape:label="Drop Shadow"
+       style="color-interpolation-filters:sRGB;">
+      <feFlood
+         id="feFlood5404"
+         result="flood"
+         flood-color="rgb(95,99,104)"
+         flood-opacity="1" />
+      <feComposite
+         id="feComposite5406"
+         result="composite1"
+         operator="in"
+         in2="SourceGraphic"
+         in="flood" />
+      <feGaussianBlur
+         id="feGaussianBlur5408"
+         result="blur"
+         stdDeviation="2"
+         in="composite1" />
+      <feOffset
+         id="feOffset5410"
+         result="offset"
+         dy="3"
+         dx="3" />
+      <feComposite
+         id="feComposite5412"
+         result="composite2"
+         operator="over"
+         in2="offset"
+         in="SourceGraphic" />
+    </filter>
+  </defs>
+  <rect
+     style="display:inline;opacity:1;fill:#17181a;fill-opacity:1;stroke:none;stroke-width:1.55083227;stroke-miterlimit:4;stroke-dasharray:1.55083219, 1.55083219;stroke-dashoffset:0;stroke-opacity:1"
+     id="rect22777"
+     width="1024"
+     height="500"
+     x="0"
+     y="0"
+     inkscape:label="Background"
+     sodipodi:insensitive="true" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Flame"
+     style="display:inline">
+    <path
+       id="path10226"
+       d="m 297.91015,303.16809 c -3.43213,27.18402 -20.66766,44.87641 -42.29251,54.09353 26.02466,0.27014 49.3497,-8.24897 60.25717,-29.49555 1.38885,-2.70084 2.97134,-5.12464 4.70876,-7.47752 l 2.34849,-2.58392 1.00357,0.46341 -4.01249,10.25621 c -7.70635,16.57772 -19.8545,30.03355 -37.35873,38.82495 -34.42728,17.07843 -48.31069,53.62835 -47.9226,94.57195 14.99563,-34.04175 43.75954,-61.0331 87.71169,-66.43254 8.40651,-1.00138 16.23231,-2.73844 23.55492,-5.20468 l 4.70394,-1.76997 -0.96373,0.72913 c -20.47029,12.68438 -27.02685,36.20376 -24.24859,61.64857 7.36276,-22.01227 23.67259,-40.56021 50.89169,-46.49581 26.02327,-8.20887 49.54497,-27.17965 58.33446,-49.92867 11.87382,-33.69818 7.86282,-58.68203 -11.30023,-78.92247 -2.81374,-2.88907 -5.85814,-5.70758 -9.25413,-8.3287 -17.81183,-14.34218 -45.76043,-26.56815 -70.85908,-14.42178 -22.36571,9.56832 -41.76146,22.87098 -45.3026,50.47386 z"
+       inkscape:connector-curvature="0"
+       style="fill:#ffe790;fill-opacity:0.92592594;stroke-width:0.51199907"
+       inkscape:label="Flame" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="App Icon">
+    <g
+       style="display:inline"
+       id="g5089"
+       inkscape:label="RSS with thruster"
+       transform="translate(-36.779149,42.78423)">
+      <path
+         sodipodi:nodetypes="ccccccccc"
+         style="display:inline;opacity:1;fill:#17181a;fill-opacity:1;stroke:none;stroke-width:2.90456462;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.40687681"
+         id="path5081"
+         d="m 497.76164,42.705297 v 79.954343 l -22.50044,46.88713 9.74294,31.41572 31.85703,9.26821 48.45364,-21.66163 81.11425,0.0494 c 0,-80.55058 -66.59447,-145.908893 -148.66742,-145.908893 z"
+         inkscape:connector-curvature="0"
+         inkscape:label="Background black" />
+      <path
+         inkscape:label="Background grey"
+         inkscape:connector-curvature="0"
+         d="m 497.76164,42.705297 v 79.954343 l -22.50044,46.88713 9.74294,31.41572 31.85703,9.26821 48.45364,-21.66163 81.11425,0.0494 c 0,-80.55058 -66.59447,-145.908893 -148.66742,-145.908893 z"
+         id="path4664"
+         style="display:none;opacity:1;fill:#5f6368;fill-opacity:1;stroke:none;stroke-width:2.90456462;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.40687681"
+         sodipodi:nodetypes="ccccccccc" />
+      <path
+         inkscape:label="Thruster"
+         style="display:inline;fill:#ffffff;stroke:none;stroke-width:2.90456462;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.40687681"
+         d="m 475.2039,169.51942 c 0,0 9.27988,17.96451 16.42237,24.96108 7.08006,6.9355 25.24149,15.92983 25.24149,15.92983 l -32.41379,67.49884 -78.02491,-76.57732 z"
+         id="path5083"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cscccc" />
+      <path
+         inkscape:label="RSS symbol upper"
+         inkscape:connector-curvature="0"
+         d="m 497.76164,42.705297 v 26.537106 c 67.16784,0 121.6284,53.450317 121.6284,119.371787 h 27.03902 c 0,-80.55058 -66.59447,-145.908893 -148.66742,-145.908893 z m 0,53.074393 v 26.53728 c 37.26244,0 67.55005,29.72606 67.55005,66.29722 h 27.03917 c 0,-51.29299 -42.32633,-92.8345 -94.58922,-92.8345 z"
+         id="path5085"
+         style="display:inline;fill:#ffffff;stroke:none;stroke-width:2.90456462;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.40687681" />
+      <ellipse
+         ry="20.442287"
+         rx="20.828733"
+         cx="518.59064"
+         cy="168.17221"
+         id="ellipse5087"
+         style="display:inline;fill:#ffffff;stroke:none;stroke-width:2.90456462;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.40687681"
+         inkscape:label="RSS symbol dot" />
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="Text">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:48px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="534.02112"
+       y="319.4028"
+       id="text4662-5"
+       inkscape:label="Lets keep ... - Roboto Bold 34 + 52"><tspan
+         sodipodi:role="line"
+         id="tspan4660-9"
+         x="534.02112"
+         y="319.4028"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:45.33333206px;font-family:Roboto;-inkscape-font-specification:'Roboto Bold';fill:#ffffff;fill-opacity:1">let's keep podcasting</tspan><tspan
+         sodipodi:role="line"
+         x="534.02112"
+         y="399.01926"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:69.33333588px;font-family:Roboto;-inkscape-font-specification:'Roboto Bold';fill:#ffffff;fill-opacity:1"
+         id="tspan4684">free and open</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:69.33333588px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:Roboto;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       x="60.391624"
+       y="138.80247"
+       id="text4662"
+       inkscape:label="Escapepod - Roboto Heavy 52"><tspan
+         sodipodi:role="line"
+         id="tspan4660"
+         x="60.391624"
+         y="138.80247"
+         style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:69.33333588px;font-family:Roboto;-inkscape-font-specification:'Roboto Heavy';fill:#ffffff;fill-opacity:1">Escapepod</tspan></text>
+  </g>
+  <!-- global background -->
+  <!-- basic set-up -->
+  <!-- stars, finally -->
+  <!-- labeling -->
+  <!-- uncomment this to enable interactivity:
+  <script>
+Array.prototype.map.call(
+document.querySelectorAll('.cc'),
+function(item) {
+  var conste = item.getAttribute('class').replace('cc cc', '');
+  item.addEventListener('mouseover', function() {
+    Array.prototype.map.call(
+      document.querySelectorAll('.'+conste),
+      function(circle) {
+        circle.setAttribute('class', circle.getAttribute('class') + ' hi');
+      });
+    Array.prototype.map.call(
+      document.querySelectorAll('.cc'+conste),
+      function(item) {
+        item.setAttribute('class', item.getAttribute('class') + ' ccHi');
+      });
+  });
+  item.addEventListener('mouseout', function() {
+    Array.prototype.map.call(
+      document.querySelectorAll('.'+conste),
+      function(circle) {
+        circle.setAttribute('class', circle.getAttribute('class').replace(' hi', ''));
+      });
+    Array.prototype.map.call(
+      document.querySelectorAll('.cc'+conste),
+      function(item) {
+        item.setAttribute('class', item.getAttribute('class').replace(' ccHi', ''));
+      });
+  });
+});
+  </script>
+-->
+</svg>

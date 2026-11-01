@@ -1,0 +1,8 @@
+# v1.6.3 - Es ist einfach Rockmusik
+
+**12 Aralık 2025**
+
+Bu sürümdeki değişiklikler:
+- bölüm notları ayrıştırma hatası düzeltildi
+- birkaç küçük görüntüleme hatası düzeltildi
+- çeviriler güncellendi

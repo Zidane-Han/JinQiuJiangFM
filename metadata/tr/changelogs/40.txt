@@ -1,0 +1,11 @@
+# v1.1.1 - Mein Neues Hobby
+
+**17 Mart 2023**
+
+Bu sürümdeki değişiklikler:
+- Escapepod media3 oynatma kütüphanesini kullanıyor
+- oynatma hızı doğru şekilde hatırlanıyor
+- tek renkli uygulama simgesi çeşidi eklendi
+- çeviriler güncellendi
+
+*Sekseninci doğum günün kutlu olsun baba.*

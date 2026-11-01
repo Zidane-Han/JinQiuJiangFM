@@ -1,0 +1,10 @@
+# v1.6.5 - Es ist einfach Rockmusik
+
+**2026-06-24**
+
+Neuerungen in dieser Version:
+- Verbesserte Kompatibilität mit Audiodateien, die einen falschen oder unbekannten Inhaltstyp melden
+- Behebung mehrerer Fehler bei der Anzeige des Players und der Podcast-Karten
+- Behebung eines Fehlers, bei dem eine Folge aus der Liste „Als Nächstes“ kurz von Anfang an abgespielt wurde, bevor die Wiedergabe fortgesetzt wurde
+- Aktualisierte Übersetzungen
+- Aktualisierte Softwarebibliotheken

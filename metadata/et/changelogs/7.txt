@@ -1,0 +1,5 @@
+# versioon 0.7.2 - Drüben Auf Dem Hügel
+
+**2019-10-02**
+
+- pidime AudioFX ekvalaiseri toe ühe vea tõttu eemaldama

@@ -1,0 +1,11 @@
+# v1.1.1 - Min nye hobby
+
+**17.03 2023**
+
+Endringer i denne versjonen:
+- Escapepod bruker media3-avspillingsbibliotek
+- Avspillingshastighet huskes på riktig vis
+- Monokromatisk programikon lagt til
+- Oppdaterte oversettelser
+
+*God 80-årsdag pappa.*

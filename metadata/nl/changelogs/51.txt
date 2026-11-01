@@ -1,0 +1,10 @@
+# v1.6.5 - Es ist einfach Rockmusik
+
+**2026-06-24**
+
+Wijzigingslog:
+- verbeterd: compatibiliteit met audiobestanden die een verkeerd of onbekend bestandstype doorgeven
+- opgelost: enkele weergavefouten in de speler en op het podcastscherm
+- opgelost: bug waar een aankomende aflevering even vanaf het begin startte
+- bijgewerkt: vertalingen
+- bijgewerkt: softwarebibliotheken

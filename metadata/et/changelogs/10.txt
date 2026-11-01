@@ -1,0 +1,7 @@
+# versioon 0.7.5 - Drüben Auf Dem Hügel
+
+**2019-10-16**
+
+- saksakeelne versioon
+- Androidi automaatse varunduse tugi
+- mitmed veaparandused

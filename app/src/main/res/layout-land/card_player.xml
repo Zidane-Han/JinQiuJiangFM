@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/player_card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    app:cardBackgroundColor="?attr/colorPrimaryContainer"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="2dp"
+    app:strokeWidth="0dp">
+    <!-- android:alpha="0.85" while scrolling -->
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <!--    tools:showIn="@layout/fragment_collection">-->
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/player_extended_large_podcast_cover"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="96dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="96dp"
+            android:layout_marginBottom="16dp"
+            android:contentDescription="@string/descr_expanded_player_podcast_cover"
+            app:layout_constraintBottom_toTopOf="@+id/player_extended_episode_title"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toStartOf="@+id/vertical_center"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/playback_speed_button"
+            app:shapeAppearanceOverlay="@style/StraightCornerTopRight"
+            tools:srcCompat="@drawable/ic_default_cover_rss_icon_192dp" />
+
+        <ImageView
+            android:id="@+id/player_extended_episode_shownotes_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/descr_expanded_player_shownotes_symbol"
+            app:layout_constraintEnd_toEndOf="@+id/player_extended_large_podcast_cover"
+            app:layout_constraintTop_toTopOf="@+id/player_extended_large_podcast_cover"
+            app:srcCompat="@drawable/ic_info_badge_36dp" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/player_extended_episode_current_chapter_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="16dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.Material3.BodyMedium"
+            android:textColor="?attr/colorOnPrimaryContainer"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/player_extended_next_chapter_button"
+            app:layout_constraintStart_toEndOf="@+id/player_extended_previous_chapter_button"
+            tools:text="@string/sample_text_episode_0_chapter" />
+
+        <ImageButton
+            android:id="@+id/player_extended_previous_chapter_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/descr_expanded_player_previous_chapter_button"
+            app:layout_constraintBottom_toBottomOf="@+id/player_extended_episode_current_chapter_name"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/player_extended_episode_current_chapter_name"
+            app:srcCompat="@drawable/ic_chevron_left_24dp" />
+
+        <ImageButton
+            android:id="@+id/player_extended_next_chapter_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/descr_expanded_player_next_chapter_button"
+            app:layout_constraintBottom_toBottomOf="@+id/player_extended_episode_current_chapter_name"
+            app:layout_constraintEnd_toEndOf="@id/vertical_center"
+            app:layout_constraintTop_toTopOf="@+id/player_extended_episode_current_chapter_name"
+            app:srcCompat="@drawable/ic_chevron_right_24dp" />
+
+        <com.google.android.material.slider.Slider
+            android:id="@+id/player_extended_playback_slider"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:contentDescription="@string/descr_expanded_player_seekbar"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:value="0.0"
+            android:valueFrom="0.0"
+            app:haloColor="?attr/colorPrimary"
+            app:haloRadius="22dp"
+            app:layout_constraintBottom_toTopOf="@id/player_extended_play_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/vertical_center"
+            app:thumbColor="?attr/colorPrimary"
+            app:thumbRadius="8dp"
+            app:trackColorActive="?attr/colorPrimary"
+            app:trackColorInactive="?attr/colorSurfaceVariant"
+            app:trackHeight="2dp" />
+        <!-- Note: app:labelStyle="@style/Tooltip" has been removed from Slider -->
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/player_extended_time_played_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-4dp"
+            android:clickable="true"
+            android:contentDescription="@string/descr_expanded_player_time_played"
+            android:focusable="true"
+            android:textAlignment="textStart"
+            android:textAppearance="@style/TextAppearance.Material3.BodyMedium"
+            android:textColor="?attr/colorOnPrimaryContainer"
+            app:layout_constraintStart_toStartOf="@+id/player_extended_playback_slider"
+            app:layout_constraintTop_toBottomOf="@+id/player_extended_playback_slider"
+            tools:text="@string/sample_text_episode_0_played_time" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/player_extended_duration_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-4dp"
+            android:contentDescription="@string/descr_expanded_episode_length"
+            android:textAlignment="textEnd"
+            android:textAppearance="@style/TextAppearance.Material3.BodyMedium"
+            android:textColor="?attr/colorOnPrimaryContainer"
+            app:layout_constraintEnd_toEndOf="@+id/player_extended_playback_slider"
+            app:layout_constraintTop_toBottomOf="@+id/player_extended_playback_slider"
+            tools:text="@string/sample_text_episode_0_length" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/player_extended_episode_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="32dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
+            android:textColor="?attr/colorOnPrimaryContainer"
+            app:layout_constraintBottom_toTopOf="@+id/player_extended_episode_current_chapter_name"
+            app:layout_constraintEnd_toStartOf="@+id/vertical_center"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:text="@string/sample_text_episode_0_title" />
+
+        <ImageButton
+            android:id="@+id/player_extended_play_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="32dp"
+            android:background="@drawable/ic_circular_button_playback_84dp"
+            android:contentDescription="@string/descr_expanded_player_playback_button"
+            android:scaleType="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/vertical_center"
+            app:srcCompat="@drawable/ic_player_play_symbol_68dp" />
+
+        <ImageButton
+            android:id="@+id/player_extended_skip_back_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/descr_expanded_player_replay_button"
+            app:layout_constraintBottom_toBottomOf="@+id/player_extended_play_button"
+            app:layout_constraintStart_toStartOf="@+id/vertical_center"
+            app:layout_constraintTop_toTopOf="@+id/player_extended_play_button"
+            app:srcCompat="@drawable/ic_replay_10sek_56dp" />
+
+        <ImageButton
+            android:id="@+id/player_extended_skip_forward_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="32dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/descr_expanded_player_forward_button"
+            app:layout_constraintBottom_toBottomOf="@+id/player_extended_play_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/player_extended_play_button"
+            app:srcCompat="@drawable/ic_forward_30sek_56dp" />
+
+        <!-- main player views -->
+        <!-- ... down here, because lower views are in a layout are above the higher views -->
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/player_podcast_cover"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="?attr/colorSecondary"
+            android:contentDescription="@string/descr_player_podcast_cover"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:shapeAppearanceOverlay="@style/RoundedCorners"
+            tools:srcCompat="@drawable/ic_default_cover_rss_icon_192dp" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/podcast_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="16dp"
+            android:ellipsize="end"
+            android:letterSpacing="0"
+            android:singleLine="true"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.Material3.TitleMedium"
+            android:textColor="?attr/colorOnPrimaryContainer"
+            app:layout_constraintBottom_toTopOf="@+id/player_episode_title"
+            app:layout_constraintEnd_toStartOf="@+id/player_play_button"
+            app:layout_constraintStart_toEndOf="@+id/player_podcast_cover"
+            app:layout_constraintTop_toTopOf="@+id/player_podcast_cover"
+            tools:text="@string/sample_text_podcast_name" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/player_episode_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"
+            android:ellipsize="end"
+            android:letterSpacing="0"
+            android:singleLine="true"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.Material3.BodyMedium"
+            android:textColor="?attr/colorOnPrimaryContainer"
+            app:layout_constraintBottom_toBottomOf="@+id/player_podcast_cover"
+            app:layout_constraintEnd_toEndOf="@+id/podcast_name"
+            app:layout_constraintStart_toStartOf="@+id/podcast_name"
+            app:layout_constraintTop_toBottomOf="@+id/podcast_name"
+            tools:text="@string/sample_text_episode_0_title" />
+
+        <ImageButton
+            android:id="@+id/player_play_button"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/ic_circular_button_playback_56dp"
+            android:contentDescription="@string/descr_player_playback_button"
+            android:scaleType="center"
+            app:layout_constraintBottom_toBottomOf="@+id/player_podcast_cover"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/player_podcast_cover"
+            app:srcCompat="@drawable/ic_player_play_symbol_48dp" />
+
+        <ProgressBar
+            android:id="@+id/player_buffering_indicator"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="2dp"
+            android:indeterminateTint="?attr/colorOnPrimary"
+            android:indeterminateTintMode="src_in"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="@+id/player_podcast_cover"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/playback_speed_button"
+            style="@style/Widget.Material3.Button.TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:contentDescription="@string/descr_expanded_player_playback_speed_button"
+            android:textColor="?attr/colorOnPrimaryContainer"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="@string/sample_text_playback_speed" />
+
+        <ImageButton
+            android:id="@+id/sleep_timer_start_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/descr_expanded_player_sleep_timer_start_button"
+            android:padding="16dp"
+            app:layout_constraintBottom_toBottomOf="@+id/playback_speed_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/playback_speed_button"
+            app:srcCompat="@drawable/ic_sleep_timer_24dp" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/sleep_timer_remaining_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/descr_expanded_player_sleep_timer_remaining_time"
+            android:textAppearance="@style/TextAppearance.Material3.BodyMedium"
+            android:textColor="?attr/colorOnPrimaryContainer"
+            app:layout_constraintBottom_toBottomOf="@+id/sleep_timer_start_button"
+            app:layout_constraintEnd_toStartOf="@+id/sleep_timer_start_button"
+            app:layout_constraintTop_toTopOf="@+id/sleep_timer_start_button"
+            tools:text="@string/sample_text_sleep_timer_remaining_time" />
+
+        <ImageButton
+            android:id="@+id/sleep_timer_cancel_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/descr_expanded_player_sleep_timer_cancel_button"
+            android:padding="8dp"
+            app:layout_constraintBottom_toBottomOf="@+id/sleep_timer_remaining_time"
+            app:layout_constraintEnd_toStartOf="@+id/sleep_timer_remaining_time"
+            app:layout_constraintTop_toTopOf="@+id/sleep_timer_remaining_time"
+            app:srcCompat="@drawable/ic_clear_24dp" />
+
+        <!-- Constraintlayout View Groups -->
+
+        <androidx.constraintlayout.widget.Group
+            android:id="@+id/playback_views"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:visibility="visible"
+            tools:visibility="gone"
+            app:constraint_referenced_ids="player_podcast_cover,podcast_name,player_episode_title,player_play_button" />
+
+        <androidx.constraintlayout.widget.Group
+            android:id="@+id/player_extended_views"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:visibility="gone"
+            tools:visibility="visible"
+            app:constraint_referenced_ids="playback_speed_button,sleep_timer_start_button,sleep_timer_remaining_time,sleep_timer_cancel_button,player_extended_large_podcast_cover,player_extended_episode_shownotes_info,player_extended_playback_slider,player_extended_time_played_view,player_extended_duration_view,player_extended_episode_title,player_extended_play_button,player_extended_skip_back_button,player_extended_skip_forward_button" />
+
+        <androidx.constraintlayout.widget.Group
+            android:id="@+id/sleep_timer_running_views"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:visibility="gone"
+            app:constraint_referenced_ids="sleep_timer_remaining_time,sleep_timer_cancel_button" />
+
+        <androidx.constraintlayout.widget.Group
+            android:id="@+id/chapter_views"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:visibility="gone"
+            app:constraint_referenced_ids="player_extended_previous_chapter_button,player_extended_next_chapter_button,player_extended_episode_current_chapter_name" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/vertical_center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.5" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</com.google.android.material.card.MaterialCardView>

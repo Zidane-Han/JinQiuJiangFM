@@ -1,0 +1,6 @@
+# versioon 1.0.7 - Sag Alles Ab
+
+**2022-01-14**
+
+- väikesed küljenduse kohendused, mis tagavad parema sobivuse Android 12-s lisandunud „Material Design 3“ kujunduskeelega
+- uuendatud tõlked

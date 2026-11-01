@@ -1,0 +1,9 @@
+# v1.5.1 - In Höchsten Höhen
+
+**26 Ocak 2024**
+
+Bu sürümdeki değişiklikler:
+- kaydırma performansı iyileştirildi
+- bölüm listesi filtre ayarını hatırla
+- çeviriler güncellendi
+- küçük hata düzeltmeleri

@@ -1,0 +1,8 @@
+v1.6.7 - Es ist einfach Rockmusik
+2026-09-18
+
+- In Anfragen wird nun „Escapepod“ angegeben, anstatt die Android-Version, das Gerätemodell und die Build-ID offenzulegen
+- Falsche Angabe des User-Agents bei der Übermittlung an podcastindex.org und gpodder.net behoben
+- Übersetzungen aktualisiert
+- Softwarebibliotheken aktualisiert
+- Build-Konfiguration modernisiert

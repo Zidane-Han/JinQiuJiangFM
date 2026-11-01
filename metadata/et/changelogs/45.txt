@@ -1,0 +1,11 @@
+# versioon 1.5.3 - In Höchsten Höhen
+
+**2024-03-05**
+
+Muudatused selles versioonis:
+- Android 15 ühilduvus (SDK 35)
+- kuvame korrektselt (= pikemalt) märkmeid
+- uus „Esita“ nupu animatsioon
+- uuendatud tõlked
+- väikesed veaparandused
+- rakenduse uus (mittevaba) arendusharu Google Casti jaoks

@@ -1,0 +1,9 @@
+# v1.5.0 - En las altitudes más altas
+
+**2024-01-04**
+
+Cambios en esta versión:
+- nueva lista de todos los episodios
+- función de auto-borrado para los episodios que no se han tocado en 14 días
+- traducciones actualizadas
+- pequeñas correcciones de errores

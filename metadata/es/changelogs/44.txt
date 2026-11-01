@@ -1,0 +1,9 @@
+# v1.5.2 - A las mayores alturas
+
+**2024-09-12**
+
+Cambios en esta versión:
+- la reanudación de la reproducción por fin funciona
+- tirar para actualizar ahora también funciona en la lista de episodios de un podcast
+- traducciones actualizadas
+- pequeñas correcciones de errores

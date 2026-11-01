@@ -1,0 +1,11 @@
+# v1.1.1 - Mi nuevo pasatiempo
+
+**2023-03-17**
+
+Cambios en esta versión:
+- Escapepod usa la biblioteca de reproducción media3
+- la velocidad de reproducción se recuerda correctamente
+- variante monocromática del icono de la aplicación agregada
+- traducciones actualizadas
+
+*Feliz octogésimo cumpleaños, papá.*

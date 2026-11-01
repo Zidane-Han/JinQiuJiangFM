@@ -1,0 +1,10 @@
+# v1.6.5 - Es ist einfach Rockmusik
+
+**24 Haziran 2026**
+
+Bu sürümdeki değişiklikler:
+- yanlış veya bilinmeyen içerik türü bildiren ses dosyalarıyla uyumluluk iyileştirildi
+- oynatıcı ve podcast kartı görüntülemesiyle ilgili çeşitli hatalar giderildi
+- “Sonraki” bölümün, devam etmeden önce başlangıçtan itibaren kısa bir süre oynatılması sorunu giderildi
+- çeviriler güncellendi
+- yazılım kütüphaneleri güncellendi

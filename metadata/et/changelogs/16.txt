@@ -1,0 +1,5 @@
+# versioon 0.7.11 - Drüben Auf Dem Hügel (Stuttgart Edition)
+
+**2019-11-23**
+
+- parandasime automaatse andmete eemalduse vea (ühe teise nurga alt)

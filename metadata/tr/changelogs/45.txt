@@ -1,0 +1,11 @@
+# v1.5.3 - In Höchsten Höhen
+
+**5 Mart 2024**
+
+Bu sürümdeki değişiklikler:
+- Android 15 uyumluluğu (SDK 35)
+- doğru (= daha uzun) bölüm notları göster
+- yeni oynatma düğmesi animasyonu
+- çeviriler güncellendi
+- küçük hata düzeltmeleri
+- uygulamanın yeni (özgür olmayan) Google Cast dalı

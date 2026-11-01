@@ -1,0 +1,9 @@
+# v1.5.0 - In Höchsten Höhen
+
+**4 Ocak 2024**
+
+Bu sürümdeki değişiklikler:
+- yeni tüm bölümler listesi
+- son 14 gün içinde dokunulmayan bölümler için otomatik silme özelliği
+- çevi̇ri̇ler güncellendi̇
+- küçük hata düzeltmeleri

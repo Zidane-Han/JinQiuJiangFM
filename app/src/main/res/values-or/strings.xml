@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fragment_settings_title">ସେଟିଂ</string>
+    <string name="dialog_add_podcast_button">ଯୋଡ଼ନ୍ତୁ</string>
+    <string name="dialog_error_title_default">ତ୍ରୁଟି</string>
+    <string name="dialog_find_podcast_button_add">ଯୋଡ଼ନ୍ତୁ</string>
+    <string name="dialog_generic_button_okay">ଠିକ୍ ଅଛି</string>
+    <string name="dialog_opml_import_button_okay">ଆମଦାନୀ କରିବା</string>
+    <string name="dialog_yes_no_negative_button_default">ନାହିଁ</string>
+    <string name="dialog_yes_no_positive_button_default">ହଁ</string>
+    <string name="dialog_opml_import_details_button">ଵିଵରଣୀ ଦେଖାଅ</string>
+    <string name="dialog_opml_import_title">OPML ଆମଦାନୀ</string>
+    <string name="dialog_opml_import_details_default">କୌଣସି ଵିଵରଣୀ ଉପଲବ୍ଧ ନାହିଁ</string>
+</resources>

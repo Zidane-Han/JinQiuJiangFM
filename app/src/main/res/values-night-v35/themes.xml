@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Customizations to the base theme -->
+    <style name="AppTheme" parent="AppTheme.Base">
+
+        <!--        <item name="mediaRouteTheme">@style/CustomMediaRouterTheme</item>-->
+
+    </style>
+
+</resources>

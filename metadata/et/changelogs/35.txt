@@ -1,0 +1,7 @@
+# versioon 1.0.4 - Sag Alles Ab
+
+**2021-04-28**
+
+- taasesituse järje salvestamise vea parandus
+- algneMP4 tugi
+- uuendasime tõlkeid

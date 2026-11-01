@@ -1,0 +1,8 @@
+v1.6.7 - Es ist einfach Rockmusik
+2026-09-18
+
+- requests now identify Escapepod rather than disclosing the Android version, the device model and the build id
+- fixed a malformed user agent sent to podcastindex.org and gpodder.net
+- updated translations
+- updated software libraries
+- modernised the build setup

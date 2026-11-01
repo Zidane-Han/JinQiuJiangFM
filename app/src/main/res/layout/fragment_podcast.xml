@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/podcast_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorSurface" >
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:visibility="visible" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/podcast_cover"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:adjustViewBounds="true"
+        android:cropToPadding="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintWidth_percent="0.3"
+        app:shapeAppearanceOverlay="@style/RoundedCornerLeftTop"
+        tools:srcCompat="@drawable/ic_default_cover_rss_icon_192dp" />
+    <!-- removed app:layout_constraintBottom_toBottomOf="parent" -->
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/podcast_website"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:paddingStart="12dp"
+        android:paddingEnd="4dp"
+        android:paddingBottom="4dp"
+        android:singleLine="true"
+        android:text="@string/dialog_episode_shownotes_website"
+        android:textAppearance="@style/TextAppearance.Material3.BodySmall"
+        android:textColor="?attr/colorPrimary"
+        android:visibility="visible"
+        app:layout_constraintStart_toEndOf="@+id/podcast_cover"
+        app:layout_constraintTop_toTopOf="@+id/podcast_cover"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/divider_centered_dot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:importantForAccessibility="no"
+        app:layout_constraintBottom_toBottomOf="@+id/podcast_website"
+        app:layout_constraintStart_toEndOf="@+id/podcast_website"
+        app:layout_constraintTop_toTopOf="@+id/podcast_website"
+        app:srcCompat="@drawable/ic_centered_dot_16dp"
+        app:tint="?attr/colorPrimary"
+        tools:visibility="visible" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/podcast_feed"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:paddingStart="4dp"
+        android:paddingEnd="12dp"
+        android:paddingBottom="4dp"
+        android:singleLine="true"
+        android:text="@string/dialog_episode_shownotes_feed"
+        android:textAppearance="@style/TextAppearance.Material3.BodySmall"
+        android:textColor="?attr/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="@+id/podcast_website"
+        app:layout_constraintStart_toEndOf="@+id/divider_centered_dot"
+        app:layout_constraintTop_toTopOf="@+id/podcast_website" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/podcast_description"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="16dp"
+        android:textAppearance="@style/TextAppearance.Material3.BodySmall"
+        android:textColor="?attr/colorOnSurface"
+        app:layout_constraintBottom_toBottomOf="@+id/podcast_cover"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/podcast_cover"
+        app:layout_constraintTop_toBottomOf="@+id/podcast_website"
+        app:layout_constraintVertical_bias="0.0"
+        tools:text="Security Now could be the most important show you watch all week. Security guru Steve Gibson, the man who coined the term spyware and created the first anti-spyware program, joins Leo Laporte every week to guide us through the minefield of ransomware, viruses, cyber espionage, hacking, etc." />
+
+    <!-- TODO: https://stackoverflow.com/questions/46642245/ellipsize-text-in-textview-without-specifying-maxlines -->
+
+    <View
+        android:id="@+id/podcast_description_fade"
+        android:layout_width="0dp"
+        android:layout_height="24dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/podcast_description"
+        app:layout_constraintEnd_toEndOf="@+id/podcast_description"
+        app:layout_constraintStart_toStartOf="@+id/podcast_description" />
+
+    <ImageButton
+        android:id="@+id/search_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="@string/descr_episode_list_search_button"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/podcast_cover"
+        app:srcCompat="@drawable/ic_search_24dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/search_text_field"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:hint="@string/episode_list_search_hint"
+        android:imeOptions="actionSearch"
+        android:singleLine="true"
+        android:textAppearance="@style/TextAppearance.Material3.LabelLarge"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/search_icon"
+        app:layout_constraintEnd_toStartOf="@+id/filter_icon"
+        app:layout_constraintStart_toEndOf="@+id/search_icon"
+        app:layout_constraintTop_toTopOf="@+id/search_icon"
+        tools:visibility="visible" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/search_term_chip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:visibility="invisible"
+        app:closeIcon="@drawable/ic_clear_24dp"
+        app:closeIconVisible="true"
+        app:layout_constraintBottom_toBottomOf="@+id/search_icon"
+        app:layout_constraintEnd_toStartOf="@+id/filter_icon"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/search_icon"
+        app:layout_constraintTop_toTopOf="@+id/search_icon"
+        app:layout_constrainedWidth="true"
+        tools:text="@string/sample_text_search_term"
+        tools:visibility="invisible" />
+
+    <ImageButton
+        android:id="@+id/filter_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="@string/descr_episode_list_filter_button"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        app:layout_constraintBottom_toBottomOf="@+id/search_icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/search_icon"
+        app:srcCompat="@drawable/ic_filter_24dp" />
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/coordinatorLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="?attr/colorSurface"
+        app:layout_constrainedHeight="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@id/search_icon"
+        app:layout_constraintEnd_toEndOf="@id/filter_icon"
+        app:layout_constraintTop_toBottomOf="@+id/search_icon"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintVertical_bias="0">
+
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:id="@+id/swipe_refresh_podcast_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/episodes_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="?attr/colorSurface"
+                android:clipToPadding="false"
+                tools:listitem="@layout/element_episode"
+                tools:visibility="visible" />
+
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

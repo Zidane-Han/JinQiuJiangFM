@@ -1,0 +1,5 @@
+# versioon 0.7.10 - Drüben Auf Dem Hügel
+
+**2019-11-20**
+
+- parandasime automaatse andmete eemalduse vead (nutiseadmes peaks vabanema täiendavat andmeruumi)

@@ -1,0 +1,6 @@
+# v0.8.5 - Go People (23 Special Edition)
+
+**2019-12-19**
+
+— Вилучено підтримку Android Auto
+--> Не питай (⊙_☉)

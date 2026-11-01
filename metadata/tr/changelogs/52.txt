@@ -1,0 +1,6 @@
+v1.6.6 - Es ist einfach Rockmusik
+29 Temmuz 2026
+
+- akış ayrıştırılması, indirmeler ve oynatma hatalu veya zararlı verilere karşı sıkılaştırıldı
+- oynatma ve depolama hataları artık sessizce başarısız olmak yerine bir mesaj gösteriyor
+- çeviriler güncellendi

@@ -1,0 +1,5 @@
+# versioon 0.7.3 - Drüben Auf Dem Hügel
+
+**2019-10-03**
+
+- pidime ajutiselt eemaldama Android Auto toe (kuna häälkäskude tugi oli puudu, siis uuendus lükati Google Play poolt tagasi)

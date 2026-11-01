@@ -1,0 +1,7 @@
+# versioon 1.0.5 - Sag Alles Ab
+
+**2021-10-21**
+
+- uuendatud tõlked
+- eemaldasime kasutajaliidesest pinu pisivigu
+- lisasime testimiseks kasutatava hästi peidetud voogesitusvaate

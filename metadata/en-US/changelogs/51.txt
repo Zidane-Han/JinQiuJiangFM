@@ -1,0 +1,10 @@
+# v1.6.5 - Es ist einfach Rockmusik
+
+**2026-06-24**
+
+Changes in this version:
+- improved compatibility with audio files that report a wrong or unknown content type
+- fixed several player and podcast card display bugs
+- fixed a bug where an Up Next episode briefly played from the start before resuming
+- updated translations
+- updated software libraries

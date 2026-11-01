@@ -1,0 +1,8 @@
+v1.6.7 - Bu sadece rock müziği
+18 Eylül 2026
+
+- isteklerde artık Android sürümü, aygıt modeli ve derleme kimliği yerine Escapepod gösteriliyor
+- podcastindex.org ve gpodder.net'e gönderilen hatalı kullanıcı aracısı düzeltildi
+- çeviriler güncellendi
+- yazılım kütüphaneleri güncellendi
+- derleme yapılandırması yenilendi

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph.xml"
+    app:startDestination="@id/main_fragment_destination">
+
+    <!-- MAIN FRAGMENT (START) -->
+    <!-- main_fragment_destination has no label attribute because it is not needed for the navigation -->
+    <fragment
+        android:id="@+id/main_fragment_destination"
+        android:name="org.y20k.escapepod.MainFragment"
+        tools:layout="@layout/fragment_main">
+        <action
+            android:id="@+id/action_main_fragment_destination_to_podcast_fragment_destination"
+            app:destination="@id/podcast_fragment_destination" />
+        <action
+            android:id="@+id/action_main_fragment_destination_to_settings_fragment_destination"
+            app:destination="@id/settings_fragment_destination" />
+    </fragment>
+
+    <!-- PODCAST FRAGMENT -->
+    <fragment
+        android:id="@+id/podcast_fragment_destination"
+        android:name="org.y20k.escapepod.PodcastFragment"
+        android:label="@string/fragment_podcast_title"
+        tools:layout="@layout/fragment_podcast" />
+
+    <!-- SETTINGS FRAGMENT -->
+    <fragment
+        android:id="@+id/settings_fragment_destination"
+        android:name="org.y20k.escapepod.SettingsFragment"
+        android:label="@string/fragment_settings_title"
+        app:enterAnim="@anim/nav_default_enter_anim"
+        app:exitAnim="@anim/nav_default_exit_anim"
+        app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+        app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+
+</navigation>

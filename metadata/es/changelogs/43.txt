@@ -1,0 +1,9 @@
+# v1.5.1 - En Höchsten Höhen
+
+**2024-01-26**
+
+Cambios en esta versión:
+- mejorado el rendimiento de desplazamiento
+- recordar la configuración del filtro de la lista de episodios
+- traducciones actualizadas
+- pequeñas correcciones de errores

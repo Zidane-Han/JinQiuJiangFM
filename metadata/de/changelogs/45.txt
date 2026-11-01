@@ -1,0 +1,11 @@
+# v1.5.3 - In Höchsten Höhen
+
+**2024-03-05**
+
+Änderungen in dieser Version:
+- Kompatibilität mit Android 15 (SDK 35)
+- Anzeige der korrekten (= längeren) Show- Notes
+- neue Wiedergabe-Button-Animation
+- aktualisierte Übersetzungen
+- kleine Fehlerbehebungen
+- neuer Google Cast-Zweig (non-free) der App

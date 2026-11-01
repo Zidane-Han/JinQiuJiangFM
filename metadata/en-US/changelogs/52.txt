@@ -1,0 +1,6 @@
+v1.6.6 - Es ist einfach Rockmusik
+2026-07-29
+
+- hardened feed parsing, downloads, and playback against malformed or hostile data
+- playback and storage errors now surface a message instead of failing silently
+- updated translations

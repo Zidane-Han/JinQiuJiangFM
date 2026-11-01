@@ -1,0 +1,8 @@
+# v1.6.3 - Es ist einfach Rockmusik
+
+**2025-12-12**
+
+Änderungen in dieser Version:
+- Behebung eines Fehlers beim Analysieren von Sendungsnotizen
+- Behebung einiger kleinerer Anzeigefehler
+- Aktualisierung der Übersetzungen

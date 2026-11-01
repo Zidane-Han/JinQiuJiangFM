@@ -1,0 +1,10 @@
+# v1.6.2 - Es ist einfach Rockmusik
+
+**2025-11-05**
+
+Changes in this version:
+- added legacy content types to the allow-list for supported audio files (improves compatibility)
+- enabled edge-to-edge display for older Android versions
+- fixed an podcast cover caching bug
+- fixed a bug in the up next queue handling
+- updated translations

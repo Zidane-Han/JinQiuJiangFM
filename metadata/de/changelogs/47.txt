@@ -1,0 +1,6 @@
+# v1.6.1 - Es ist einfach Rockmusik
+
+**2025-10-10**
+
+Änderungen in dieser Version:
+- gradlePluginVersion auf 8.11.1 gesetzt, um die Kompatibilität mit dem aktuellen F-Droid-Build-Prozess zu gewährleisten

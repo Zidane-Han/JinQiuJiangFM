@@ -1,0 +1,5 @@
+# V1.0.1 - SAG ALLES AB 
+
+** 2021-03-13 ** 
+
+- F-Droid இணக்கம் ஒட்டு: தேவையற்ற தனியுரிம சார்பு நீக்கப்பட்டது (பார் https://codeberg.org/y20k/escapepod/issues64)

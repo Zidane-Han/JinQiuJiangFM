@@ -1,0 +1,9 @@
+v1.6.8 - Es ist einfach Rockmusik
+2026-10-14
+
+- third-party widgets can control playback again
+- the media notification shows the seek buttons instead of previous and next
+- fixed an update indicator that could run forever or flicker during an update
+- fixed two crashes (failed OPML backup, tapping a podcast card without episodes)
+- updated translations
+- updated software libraries

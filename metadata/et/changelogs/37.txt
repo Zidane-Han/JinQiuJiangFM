@@ -1,0 +1,6 @@
+# v1.0.6 - Sag Alles Ab
+
+**2021-11-05**
+
+- rakenduse kujundus kasutab nüüd Android 12 puhul „dünaamilisi värve“ (Material You)
+- uuendatud tõlked

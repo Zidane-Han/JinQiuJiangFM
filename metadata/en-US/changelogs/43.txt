@@ -1,0 +1,9 @@
+# v1.5.1 - In Höchsten Höhen
+
+**2024-01-26**
+
+Changes in this version:
+- improved scrolling performance
+- remember the episode list filter setting
+- updated translations
+- small bug fixes

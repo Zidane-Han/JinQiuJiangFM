@@ -1,0 +1,5 @@
+# versioon 0.8.1 - Gehen Die Leute
+
+**2019-12-05**
+
+- hoiab ära olukorra, kus tühja taskuhäälingute loendi puhul häälkäsk taasesituse alustamiseks jooksutab rakenduse kokku

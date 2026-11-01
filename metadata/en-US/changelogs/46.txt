@@ -1,0 +1,11 @@
+# v1.6.0 - Es ist einfach Rockmusik
+
+**2025-10-08**
+
+Changes in this version:
+- new floating player
+- new setting to enable dynamic color (Android 12+)
+- new setting to disable periodic cleanup of unused downloads
+- improved image loading in podcast list
+- Android 16 compatibility (SDK 36)
+- updated translations

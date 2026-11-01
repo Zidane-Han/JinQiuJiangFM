@@ -1,0 +1,9 @@
+# v1.5.2 - In Höchsten Höhen
+
+**2024-09-12**
+
+Änderungen in dieser Version:
+- Wiederaufnahme der Wiedergabe funktioniert endlich
+- Ziehen zum Aktualisieren funktioniert jetzt auch in der Episodenliste eines Podcasts
+- aktualisierte Übersetzungen
+- kleine Fehlerbehebungen

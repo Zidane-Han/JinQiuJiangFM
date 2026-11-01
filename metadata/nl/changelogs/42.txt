@@ -1,0 +1,9 @@
+# v1.5.0 - In Höchsten Höhen
+
+**2024-01-04**
+
+Changes in this version:
+- new all episodes list
+- auto-delete feature for episodes that haven't been touched in 14 days
+- updated translations
+- small bug fixes

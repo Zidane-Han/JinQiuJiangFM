@@ -1,0 +1,29 @@
+Escapepod is a straightforward and lightweight app that takes a minimalistic approach to podcast listening, which may not appeal to everyone. The app consists of only two screens: a list of all podcasts and a list of episodes for a single podcast. Escapepod lacks a podcast discovery feature, offering only a simple search option. Additionally, it opens RSS podcast links when tapped in a web browser.
+
+VERIFY APK
+----------
+
+APKs published on Codeberg Releases are signed with the following certificate.
+SHA-256: 61:05:14:5F:84:E5:CB:D6:97:F0:F6:E1:2C:97:77:04:2E:9B:2D:B6:67:A7:FF:0D:A4:12:F6:74:35:31:6D:D8
+
+FREQUENT QUESTIONS
+------------------
+
+DOES ESCAPEPOD HAVE PLAYBACK QUEUE?
+Escapepod has a simple up-next feature. Tap play on an episode while listening to another one. You will be be given the opportunity add it to the up-next slot.
+
+WHAT ARE THE DEFAULT SETTINGS?
+- Auto-update does not download files over cellular network
+- Escapepod by default only keeps two episodes
+
+CAN ESCAPEPOD KEEPS MORE THAN TWO EPISODES?
+Escapepod tries to reduce the number of episodes it keeps. Here are the rules for that:
+- Escapepod keeps the latest two episodes
+- Episodes, that have been started, or that have been downloaded manually, are kept, too
+- Episodes that have not been listened to in more than two weeks are removed.
+
+DOES ESCAPEPOD SUPPORT OPML?
+You can import a podcast list using the OPML exchange format using the respective option in the app's Settings. The current podcast collection can be exported via Settings, too. Additionally Escapepod keeps an up-to-date OPML file in the folder /Android/data/org.y20k.escapepod/files/collection/.
+
+WHERE DO THE PODCAST SEARCH RESULTS COME FROM?
+Escapepod searches by default the Podcastindex.org (https://podcastindex.org/) online database - or if you toggle the respective setting the gpodder.net (https://gpodder.net/directory/) online database.

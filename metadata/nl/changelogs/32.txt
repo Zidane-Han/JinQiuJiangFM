@@ -1,0 +1,5 @@
+# v1.0.1 - Sag Alles Ab
+
+**2021-03-13**
+
+- F-Droid-compatibiliteitsoplossing: onnodige propriëtaire afhankelijkheid verwijderd (zie https://codeberg.org/y20k/escapepod/issues64)

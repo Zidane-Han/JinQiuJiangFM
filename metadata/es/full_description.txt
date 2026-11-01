@@ -1,0 +1,23 @@
+Escapepod es una aplicación sencilla y liviana que adopta un enfoque minimalista para escuchar podcast, lo que puede no gustarle a todos. La aplicación consta de solo dos pantallas: una lista de todos los pódcast y una lista de episodios de un solo podcast. Escapepod carece de una función de descubrimiento de pódcast, y solo ofrece una opción de búsqueda simple. Además, abre enlaces de podcasts RSS cuando se toca en un navegador web.
+
+
+PREGUNTAS FRECUENTES
+
+¿ESCAPEPOD TIENE COLA DE REPRODUCCIÓN?
+Escapepod tiene una función de siguiente nivel sencilla. Toca reproducir en un episodio mientras escuchas otro. Tendrás la oportunidad de agregarlo al espacio de siguiente nivel.
+
+¿CUÁLES SON LAS CONFIGURACIONES PREDETERMINADAS?
+- La actualización automática no descarga archivos a través de la red celular
+- Escapepod por defecto solo conserva dos episodios
+
+¿PUEDE ESCAPEPOD CONSERVAR MÁS DE DOS EPISODIOS?
+Escapepod intenta reducir la cantidad de episodios que conserva. Estas son las reglas para ello:
+- Escapepod conserva los dos últimos episodios
+- También se conservan los episodios que se han iniciado o que se han descargado manualmente.
+- Se eliminan los episodios que no se hayan escuchado en más de dos semanas.
+
+¿ESCAPEPOD ES COMPATIBLE CON OPML?
+Puedes importar una lista de podcasts con el formato de intercambio OPML mediante la opción correspondiente en la configuración de la aplicación. La colección de podcasts actual también se puede exportar a través de la configuración. Además, Escapepod mantiene un archivo OPML actualizado en la carpeta /Android/data/org.y20k.escapepod/files/collection/.
+
+¿DE DÓNDE PROVIENEN LOS RESULTADOS DE BÚSQUEDA DE PÓDCAST?
+Escapepod busca de forma predeterminada en la base de datos en línea Podcastindex.org (https://podcastindex.org/) o, si activa la configuración correspondiente, en la base de datos en línea gpodder.net (https://gpodder.net/directory/).

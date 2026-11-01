@@ -1,0 +1,9 @@
+# v1.5.0 - In Höchsten Höhen
+
+**2024-01-04**
+
+Änderungen in dieser Version:
+- neue Liste aller Episoden
+- automatische Löschfunktion für Episoden, die seit 14 Tagen nicht mehr aufgerufen wurden
+- aktualisierte Übersetzungen
+- kleine Fehlerkorrekturen

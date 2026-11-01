@@ -1,0 +1,7 @@
+# versioon 0.7.4 - Drüben Auf Dem Hügel
+
+**2019-10-10**
+
+- Android Auto esmane tugi on tagasi
+- AudioFX ekvalaiseri lõiming on tagasi
+- veaparandused

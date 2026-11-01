@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialog_add_podcast_button">যুক্ত করুন</string>
+    <string name="fragment_settings_title">সেটিংস</string>
+    <string name="app_name">ইসকেপপোড</string>
+    <string name="fragment_podcast_title">পডকাস্ট</string>
+    <string name="fragment_collection_title">সব পডকাস্ট</string>
+    <string name="dialog_add_podcast_howto">অনুগ্রহ করে একটি পডকাস্ট ফিড ঠিকানা লিখুন। সংশ্লিষ্ট পডকাস্টের হোমপেজে RSS চিহ্নটি খুঁজে বের করুন।</string>
+</resources>
