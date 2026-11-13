@@ -15,7 +15,6 @@
     <string name="descr_expanded_player_replay_button">Повтор последних 10 секунд</string>
     <string name="descr_expanded_player_previous_chapter_button">Предыдущая глава</string>
     <string name="descr_expanded_player_podcast_cover">Большое изображение обложки подкаста</string>
-    <string name="descr_expanded_player_playback_speed_button">Увеличить скорость воспроизведения</string>
     <string name="descr_expanded_player_playback_button">Играть/пауза</string>
     <string name="descr_expanded_player_next_chapter_button">Следующая глава</string>
     <string name="descr_expanded_player_forward_button">Вперёд 30 секунд</string>
@@ -27,10 +26,8 @@
     <string name="descr_card_podcast_cover">Изображение обложки подкаста</string>
     <string name="descr_card_playback_indicator">Прогресс воспроизведения</string>
     <string name="descr_card_add_new_button">Добавить новый канал подкаста</string>
-    <string name="pref_update_covers_title">Обновить обложки</string>
     <string name="pref_report_issue_title">Сообщить о проблеме</string>
     <string name="pref_report_issue_summary">Сообщайте об ошибках и предлагайте улучшения на Codeberg.</string>
-    <string name="pref_opml_export_title">Экспорт OPML</string>
     <string name="pref_episode_download_over_mobile_title">Скачать по мобильной сети</string>
     <string name="pref_background_refresh_summary_enabled">Поиск выпуска подкаста в фоне…</string>
     <string name="pref_background_refresh_summary_disabled">Не искать выпуски подкаста в фоновом режиме.</string>
@@ -54,7 +51,6 @@
     <string name="toast_message_up_next_added_episode">Выпуск был добавлен в очередь.</string>
     <string name="toast_message_sleep_timer_unable_to_start">Сначала начните прослушивание выпуска.</string>
     <string name="toast_message_skipping_disabled">Воспроизведение не запущено. Пропуск отключён.</string>
-    <string name="toast_message_save_opml">Сохранение коллекции подкастов в формате OPML.</string>
     <string name="toast_message_refreshing_cover">Обновление обложки подкаста.</string>
     <string name="dialog_episode_shownotes_title">Примечание</string>
     <string name="pref_general_title">Общие</string>
@@ -62,8 +58,6 @@
     <string name="descr_card_delete_episode_button">Удалить скачанный выпуск</string>
     <string name="pref_delete_all_title">Удалить скачанное</string>
     <string name="pref_delete_all_summary">Удалить скачанные выпуски, чтобы освободить место на вашем устройстве. Вы можете скачать их снова в любое время.</string>
-    <string name="pref_update_covers_summary">Скачать последнюю версию всех обложек подкастов из вашей коллекции.</string>
-    <string name="pref_opml_export_summary">Сохранить ваши каналы подкастов в файл OPML, который можно импортировать в другие проигрыватели.</string>
     <string name="pref_theme_selection_summary">Текущая тема:</string>
     <string name="pref_theme_selection_mode_light">Светлый режим</string>
     <string name="pref_theme_selection_mode_device_default">Как в системе</string>
@@ -74,7 +68,6 @@
     <string name="pref_theme_selection_title">Тема приложения</string>
     <string name="podcast_list_button_toggle_show_older_episodes">Старые выпуски</string>
     <string name="podcast_list_button_toggle_hide_older_episodes">Скрыть старые выпуски</string>
-    <string name="toast_message_playback_speed_reset">Скорость воспроизведения сброшена.</string>
     <string name="toast_message_install_file_helper">Пожалуйста, сначала установите файловый менеджер или проигрыватель подкастов.</string>
     <string name="toast_message_debug_logging_to_file_stopped">Отладка: Прекращена запись в локальный файл журнала.</string>
     <string name="toast_message_debug_logging_to_file_started">Отладка: Начало записи в локальный файл журнала.</string>
@@ -94,7 +87,6 @@
     <string name="player_up_next_headline">Следующий:</string>
     <string name="dialog_yes_no_title_default">Выбрать</string>
     <string name="dialog_yes_no_positive_button_vpn_download">Скачать в любом случае</string>
-    <string name="dialog_yes_no_positive_button_update_covers">Обновить</string>
     <string name="dialog_yes_no_positive_button_update_collection">Обновить</string>
     <string name="dialog_yes_no_positive_button_remove_podcast">Удалить</string>
     <string name="dialog_yes_no_positive_button_non_wifi_download">Скачать в любом случае</string>
@@ -107,7 +99,6 @@
     <string name="dialog_yes_no_negative_button_cancel">Отмена</string>
     <string name="dialog_yes_no_negative_button_add_up_next">Добавить в очередь</string>
     <string name="dialog_yes_no_message_vpn_download">Ваше устройство подключено через VPN. Всё равно скачать выпуск?</string>
-    <string name="dialog_yes_no_message_update_covers">Скачать последнюю версию всех обложек подкастов\?</string>
     <string name="dialog_yes_no_message_update_episodes">Найти новые выпуски?</string>
     <string name="dialog_yes_no_message_remove_podcast">Удалить этот подкаст\?</string>
     <string name="dialog_yes_no_message_non_wifi_download">Ваше устройство не подключено к Wi-Fi. Всё равно скачать выпуск?</string>
@@ -116,20 +107,10 @@
     <string name="dialog_yes_no_message_delete_downloads">Удалить скачанные выпуски? Вы можете скачать их снова в любое время.</string>
     <string name="dialog_yes_no_message_default">Вы действительно хотите это сделать\?</string>
     <string name="dialog_yes_no_message_add_up_next">Начать слушать этот выпуск прямо сейчас?</string>
-    <string name="dialog_opml_import_title">Импорт OPML</string>
-    <string name="dialog_opml_import_message">Добавить новые подкасты\? Дубликаты будут удалены перед импортом. Количество найденных подкастов:</string>
-    <string name="dialog_opml_import_message_error">Не удалось импортировать OPML файл. Подкасты не найдены.</string>
-    <string name="dialog_opml_import_details_default">Подробности отсутствуют</string>
-    <string name="dialog_opml_import_details_button">Показать подробности</string>
-    <string name="dialog_opml_import_button_okay">Импорт</string>
     <string name="dialog_generic_details_default">Подробности отсутствуют</string>
     <string name="dialog_generic_details_button">Показать подробности</string>
     <string name="dialog_generic_button_okay">OK</string>
     <string name="dialog_generic_button_cancel">Отмена</string>
-    <string name="dialog_find_podcast_title">Найти подкаст</string>
-    <string name="dialog_find_podcast_no_results">Результаты не найдены.</string>
-    <string name="dialog_find_podcast_hint">Имя или адрес канала</string>
-    <string name="dialog_find_podcast_button_add">Добавить</string>
     <string name="dialog_error_title_podcast_invalid_feed">Неверный канал подкаста</string>
     <string name="dialog_error_title_podcast_duplicate">Дублировать подкаст</string>
     <string name="dialog_error_title_no_network">Не в сети</string>
@@ -146,15 +127,11 @@
     <string name="dialog_add_podcast_howto">Пожалуйста, введите адрес подкаста. Найдите символ RSS на главной странице соответствующего подкаста.</string>
     <string name="dialog_add_podcast_button">Добавить</string>
     <string name="fragment_settings_title">Настройки</string>
-    <string name="app_name">Escapepod</string>
+    <string name="app_name">今球讲</string>
     <string name="pref_advanced_title">Продвинутые</string>
-    <string name="pref_search_provider_selection_title">Провайдер поиска</string>
-    <string name="pref_search_provider_selection_summary">В настоящее время используется:</string>
     <string name="pref_delete_all_storage_space_used">Использовано</string>
     <string name="pref_delete_all_storage_space_available">Доступно</string>
     <string name="toast_message_deleting_downloads">Удаление скачанных выпусков…</string>
-    <string name="pref_opml_import_title">Импорт OPML</string>
-    <string name="pref_opml_import_summary">Выберите файл OPML из хранилища устройства.</string>
     <string name="notification_dismiss">Закрыть уведомление</string>
     <string name="toast_message_error_file_type_unknown">Невозможно обработать скачивание. Тип файла:</string>
     <string name="descr_expanded_player_shownotes_symbol">Показать символ нот</string>
@@ -175,9 +152,6 @@
     <string name="pref_download_auto_cleanup_enabled">Последние выпуски сохраняются. Скачивания старее периодически удаляются.</string>
     <string name="pref_download_auto_cleanup_disabled">Все незаконченные выпуски хранятся.</string>
     <string name="pref_download_auto_cleanup_title">Самоочистка</string>
-    <string name="pref_tap_anywhere_playback_summary_disabled">Нажмите на Прослушать, чтобы воспроизвести выпуск.</string>
-    <string name="pref_tap_anywhere_playback_summary_enabled">Ткните на карточке выпуска, чтобы начать его прослушивание.</string>
-    <string name="pref_tap_anywhere_playback_title">Нажмите на выпуск</string>
     <string name="descr_back_icon">Перейти назад</string>
     <string name="descr_episode_list_filter_button">Символ фильтра</string>
 </resources>

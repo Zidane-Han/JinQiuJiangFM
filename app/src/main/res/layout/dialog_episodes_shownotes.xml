@@ -129,16 +129,11 @@
         app:layout_constraintTop_toBottomOf="@+id/shownotes_title"
         app:layout_constraintVertical_bias="0.0">
 
-        <com.google.android.material.textview.MaterialTextView
+        <com.jinqiujiang.fm.ui.ShowNotesView
             android:id="@+id/podcast_description"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingBottom="16dp"
-            android:textAppearance="@style/TextAppearance.Material3.BodyMedium"
-            android:textColor="?attr/colorOnSurface"
-            android:textColorLink="?attr/colorPrimary"
-            android:textIsSelectable="true"
-            tools:text="@string/sample_text_episode_shownotes" />
+            android:paddingBottom="16dp" />
 
     </ScrollView>
 

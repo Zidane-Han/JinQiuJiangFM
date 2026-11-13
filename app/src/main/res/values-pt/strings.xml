@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Escapepod</string>
+    <string name="app_name">今球讲</string>
     <string name="dialog_add_podcast_button">Adicionar</string>
     <string name="dialog_add_podcast_howto">Introduza o endereço do podcast. Procure pelo símbolo RSS na página web do podcast respetivo.</string>
     <string name="dialog_add_podcast_input_hint">Introduza o endereço do podcast</string>
@@ -20,12 +20,6 @@
     <string name="dialog_generic_details_button">Mostrar detalhes</string>
     <string name="dialog_generic_details_default">Não existem detalhes</string>
     <string name="dialog_yes_no_message_non_wifi_download">O dispositivo não está ligado a uma rede Wi-Fi. Deseja, ainda assim, descarregar?</string>
-    <string name="dialog_opml_import_button_okay">Importar</string>
-    <string name="dialog_opml_import_details_button">Mostrar detalhes</string>
-    <string name="dialog_opml_import_details_default">Não existem detalhes</string>
-    <string name="dialog_opml_import_message_error">Não foi possível importar o ficheiro OPML. Nenhum podcast encontrado.</string>
-    <string name="dialog_opml_import_message">Adicionar novos podcasts\? Todas as duplicações serão removidas. Número de podcasts encontrados:</string>
-    <string name="dialog_opml_import_title">Importação OPML</string>
     <string name="dialog_yes_no_message_add_up_next">Iniciar reprodução do podcast\?</string>
     <string name="dialog_yes_no_message_default">Tem a certeza de que o deseja fazer\?</string>
     <string name="dialog_yes_no_message_delete_downloads">Apagar todos os episódios descarregados\? Pode sempre descarregar os episódios posteriormente.</string>
@@ -56,7 +50,6 @@
     <string name="toast_message_error_validation_missing_cover">Validação RSS: a fonte não possui quaisquer referências à imagem.</string>
     <string name="toast_message_debug_logging_to_file_started">Depuração: a iniciar escrita do ficheiro local.</string>
     <string name="toast_message_debug_logging_to_file_stopped">Depuração: a parar escrita do ficheiro local.</string>
-    <string name="toast_message_playback_speed_reset">Velocidade de reprodução reposta.</string>
     <string name="toast_message_copied_to_clipboard">Copiado para a área de transferência.</string>
     <string name="toast_message_refreshing_cover">A recarregar imagem do podcast.</string>
     <string name="toast_message_skipping_disabled">Reprodução ainda não iniciada. Não é possível ignorar.</string>
@@ -89,7 +82,6 @@
     <string name="descr_expanded_player_forward_button">Avançar 30 segundos</string>
     <string name="descr_expanded_player_next_chapter_button">Capítulo seguinte</string>
     <string name="descr_expanded_player_playback_button">Reproduzir/Pausa</string>
-    <string name="descr_expanded_player_playback_speed_button">Aumentar velocidade de reprodução</string>
     <string name="descr_expanded_player_podcast_cover">Podcast com imagem grande</string>
     <string name="descr_expanded_player_previous_chapter_button">Capítulo anterior</string>
     <string name="descr_expanded_player_replay_button">Repetir os últimos 10 segundos</string>
@@ -104,10 +96,6 @@
     <string name="onboarding_app_get_started">Introdução</string>
     <string name="descr_expanded_player_seekbar">Tempo de reprodução do episódio</string>
     <string name="descr_expanded_player_time_remaining">Tempo restante</string>
-    <string name="dialog_find_podcast_button_add">Adicionar</string>
-    <string name="dialog_find_podcast_hint">Nome ou endereço da fonte</string>
-    <string name="dialog_find_podcast_no_results">Não existem resultados.</string>
-    <string name="dialog_find_podcast_title">Encontrar podcast</string>
     <string name="toast_message_error_feed_not_supported">Fonte não suportada (application/Atom+XML).</string>
     <string name="dialog_yes_no_positive_button_vpn_download">Sim, descarregar</string>
     <string name="dialog_yes_no_message_vpn_download">O dispositivo está ligado a uma VPN. Deseja, ainda assim, descarregar?</string>
@@ -124,16 +112,9 @@
     <string name="pref_delete_all_summary">Apague alguns episódios para libertar espaço no dispositivo. Pode descarregar os episódios posteriormente.</string>
     <string name="pref_delete_all_title">Apagar descargas</string>
     <string name="pref_maintenance_title">Manutenção</string>
-    <string name="pref_opml_export_summary">Guardar fontes de podcasts para um ficheiro OPML para o poder importar noutras aplicações.</string>
-    <string name="pref_opml_export_title">Exportação OPML</string>
     <string name="toast_message_install_file_helper">Primeiro, tem que instalar um gestor de ficheiros ou uma aplicação de podcasts.</string>
-    <string name="toast_message_save_opml">A guardar podcasts para ficheiro OPML.</string>
     <string name="dialog_episode_shownotes_feed">Fonte</string>
     <string name="dialog_episode_shownotes_website">Site</string>
-    <string name="dialog_yes_no_message_update_covers">Descarregar última versão das imagens dos podcasts\?</string>
-    <string name="dialog_yes_no_positive_button_update_covers">Atualizar</string>
-    <string name="pref_update_covers_summary">Descarregar a última versão de todas as imagens da sua coleção.</string>
-    <string name="pref_update_covers_title">Atualizar imagens</string>
     <string name="descr_app_icon">Ícone da aplicação , representativo de uma cápsula no espaço</string>
     <string name="pref_report_issue_title">Reportar um erro</string>
     <string name="pref_report_issue_summary">Reporte erros e melhorias/sugestões no Codeberg.</string>
@@ -147,10 +128,6 @@
     <string name="pref_app_version_summary">Versão</string>
     <string name="pref_about_title">Acerca</string>
     <string name="toast_message_error_download_error">Erro ao descarregar</string>
-    <string name="pref_search_provider_selection_title">Serviço de pesquisa</string>
-    <string name="pref_search_provider_selection_summary">Atualmente:</string>
-    <string name="pref_opml_import_title">Importar OPML</string>
-    <string name="pref_opml_import_summary">Selecione um ficheiro OPML do armazenamento.</string>
     <string name="pref_delete_all_storage_space_used">Utilizado</string>
     <string name="pref_delete_all_storage_space_available">Disponível</string>
     <string name="pref_advanced_title">Avançado</string>
@@ -171,9 +148,6 @@
     <string name="podcast_list_button_all_episodes">Todos os episódios</string>
     <string name="toast_message_episode_list_filter_all">Todos os episódios</string>
     <string name="toast_message_episode_list_filter_downloaded">Episódios descarregados</string>
-    <string name="pref_tap_anywhere_playback_summary_disabled">Toque no botão \'Reproduzir\' para ouvir um episódio.</string>
-    <string name="pref_tap_anywhere_playback_summary_enabled">Toque em qualquer lado do cartão do episódio para iniciar a reprodução.</string>
-    <string name="pref_tap_anywhere_playback_title">Toque no episódio</string>
     <string name="descr_back_icon">Navegação para trás</string>
     <string name="descr_episode_list_filter_button">Símbolo de filtro</string>
     <string name="dialog_yes_no_message_download_all_episodes">Pretende descarregar todos os episódios?</string>

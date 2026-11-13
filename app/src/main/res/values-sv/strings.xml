@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Escapepod</string>
+    <string name="app_name">今球讲</string>
     <string name="fragment_settings_title">Inställningar</string>
     <string name="dialog_add_podcast_title">Lägg till ny podcast</string>
     <string name="dialog_generic_button_close">Stäng</string>
@@ -10,10 +10,6 @@
     <string name="dialog_error_title_default">Fel</string>
     <string name="dialog_error_title_no_network">Frånkopplad</string>
     <string name="dialog_error_title_podcast_duplicate">Finnes redan</string>
-    <string name="dialog_find_podcast_button_add">Lägg till</string>
-    <string name="dialog_find_podcast_hint">Namn eller adress till informationskanal</string>
-    <string name="dialog_find_podcast_no_results">Resultatlöst.</string>
-    <string name="dialog_find_podcast_title">Finn podcast</string>
     <string name="dialog_generic_button_cancel">Avbryt</string>
     <string name="dialog_add_podcast_input_hint">Skriv in länk till poddflöde</string>
     <string name="dialog_episode_shownotes_feed">Flöde</string>
@@ -21,11 +17,6 @@
     <string name="dialog_add_podcast_howto">Skriv in en poddflödesadress. Leta efter RSS-symbolen på hemsidan för respektive podcast.</string>
     <string name="dialog_all_episodes_list_title">Alla episoder | endast strömming</string>
     <string name="dialog_error_title_podcast_invalid_feed">Ogiltig podcast-adress</string>
-    <string name="dialog_opml_import_button_okay">Importer</string>
-    <string name="dialog_opml_import_details_button">Visa detaljer</string>
-    <string name="dialog_opml_import_details_default">Ingen tillgängliga detaljer</string>
-    <string name="dialog_opml_import_message_error">Kunde inge importera OPML-fil. Fann ingen podcast-ar.</string>
-    <string name="dialog_opml_import_title">OPML-import</string>
     <string name="dialog_yes_no_message_add_up_next">Begynn att lytta omedelbart\?</string>
     <string name="dialog_yes_no_message_default">Vill ni verkligen göra detta\?</string>
     <string name="dialog_yes_no_message_delete_downloads">Radera nerladdade episoder\? Ni kan lasta dom ner igen efteråt.</string>
@@ -40,7 +31,6 @@
     <string name="dialog_yes_no_positive_button_non_wifi_download">Ladda ner ovillkorligt</string>
     <string name="dialog_yes_no_positive_button_remove_podcast">Radera</string>
     <string name="dialog_yes_no_positive_button_update_collection">Uppdatera</string>
-    <string name="dialog_yes_no_positive_button_update_covers">Uppdatera</string>
     <string name="player_up_next_headline">Spelas efteråt:</string>
     <string name="dialog_yes_no_title_default">Avgöra</string>
     <string name="toast_message_adding_podcast">Lägger till informationskanal …</string>
@@ -59,9 +49,7 @@
     <string name="toast_message_debug_logging_to_file_started">Avlusning: Starta skrivning till lokal loggfil.</string>
     <string name="toast_message_debug_logging_to_file_stopped">Avlusning: Stopp skrivning till lokal loggfil.</string>
     <string name="toast_message_install_file_helper">Installera en filhanterare eller podcast-spelare först.</string>
-    <string name="toast_message_playback_speed_reset">Avspelningshastighet återställd.</string>
     <string name="toast_message_refreshing_cover">Uppdaterar podcastomslag.</string>
-    <string name="toast_message_save_opml">Lagrar podcast-samling som OPML.</string>
     <string name="toast_message_sleep_timer_unable_to_start">Börja lyssning till en episod först.</string>
     <string name="toast_message_theme_day">Växlar till «Dagmodus» (lång-tryck upptäcks)</string>
     <string name="toast_message_theme_night">Växlar till «Nattmodus» (lång-tryck upptäcks)</string>
@@ -89,19 +77,12 @@
     <string name="pref_episode_download_over_mobile_summary_enabled">Nerladdning av podcast-episoder via Wi-Fi och mobilnätverk. Avgifter kan tillkomma.</string>
     <string name="pref_episode_download_over_mobile_summary_disabled">Nedladdning av podcast-episoder endast via Wi-Fi.</string>
     <string name="pref_general_title">Generellt</string>
-    <string name="pref_opml_export_title">Exportera OPML</string>
-    <string name="pref_opml_import_title">Importera OPML</string>
     <string name="pref_report_issue_title">Rapportera problem</string>
-    <string name="pref_search_provider_selection_summary">Använder nu:</string>
-    <string name="pref_search_provider_selection_title">Sökleverantör</string>
     <string name="pref_theme_selection_mode_dark">Mörkt läge</string>
     <string name="pref_theme_selection_mode_device_default">Samma som enheten</string>
     <string name="pref_theme_selection_mode_light">Ljust läge</string>
     <string name="pref_theme_selection_summary">Nuvarande läge:</string>
     <string name="pref_maintenance_title">Underhåll</string>
-    <string name="pref_opml_export_summary">Spara dina podcast-informationskanaler till en OPML-fil som kan importeras i andre spelare.</string>
-    <string name="pref_update_covers_summary">Ladda ner sista version av alla podcast-omslag i din samling.</string>
-    <string name="pref_update_covers_title">Uppdatera omslag</string>
     <string name="descr_app_icon">Programikon som visar en räddningskapsel i yttra rymden</string>
     <string name="descr_card_add_new_button">Lägg till nytt podcast-informationskanal</string>
     <string name="descr_card_delete_episode_button">Ta bort nedladdad episod</string>
@@ -113,7 +94,6 @@
     <string name="descr_expanded_player_debug_log_toggle_button">Växla avlusningsloggfil</string>
     <string name="descr_expanded_player_forward_button">Framåt 30 sekunder</string>
     <string name="descr_expanded_player_playback_button">Spel/pausa</string>
-    <string name="descr_expanded_player_playback_speed_button">Ök avspelningshastigheten</string>
     <string name="descr_expanded_player_podcast_cover">Stor podcast-omslagsbild</string>
     <string name="descr_expanded_player_previous_chapter_button">Föregående kapitel</string>
     <string name="descr_expanded_player_replay_button">Spela senaste 10 sekunder igen</string>
@@ -131,11 +111,9 @@
     <string name="dialog_yes_no_negative_button_default">Nej</string>
     <string name="dialog_error_message_podcast_invalid_feed">Denna adressen är inte ett RSS-flöde.</string>
     <string name="dialog_generic_details_default">Ingen tillgängliga detaljer</string>
-    <string name="dialog_opml_import_message">Legg till nya podcast-ar\? Duplikat vill raderas innan importering. Antal hittade podcast-ar:</string>
     <string name="dialog_yes_no_positive_button_mark_episode_played">Marker som redan spelad</string>
     <string name="dialog_generic_button_okay">OK</string>
     <string name="dialog_yes_no_message_non_wifi_download">Din enhet är inte tillkopplad Wi-Fi. Vill ni fortfarande ladda ner episoden\?</string>
-    <string name="dialog_yes_no_message_update_covers">Ladda ner siste version av alla podcast-omslag\?</string>
     <string name="dialog_yes_no_positive_button_delete_downloads">Radera alla</string>
     <string name="dialog_yes_no_positive_button_add_up_next">Start nu</string>
     <string name="dialog_yes_no_positive_button_default">Ja</string>
@@ -152,7 +130,6 @@
     <string name="toast_message_skipping_disabled">Ingenting spelas. Sporväxlande är av.</string>
     <string name="toast_message_theme_follow_system">Växlar till «Följ systeminställning» (lång-tryck upptäcks)</string>
     <string name="pref_delete_all_summary">Radera nedladdade episoder for att frigöra rom på din enhet. Ni kan ladda ner dom igen när som helst.</string>
-    <string name="pref_opml_import_summary">Välj en OPML-fil från enhetens lagring.</string>
     <string name="pref_theme_selection_title">Programläge</string>
     <string name="pref_report_issue_summary">Rapportera fel och föreslå förbättringar på Codeberg.</string>
     <string name="podcast_list_button_settings">Inställningar</string>

@@ -51,6 +51,8 @@
 
     </LinearLayout>
 
+    <include layout="@layout/player_expanded" />
+
     <!-- DOWNLOAD INDICATOR -->
     <android.widget.ProgressBar
         android:id="@+id/download_progress_indicator"
@@ -59,7 +61,7 @@
         android:layout_height="wrap_content"
         android:background="?attr/colorSurface"
         android:indeterminate="true"
-        android:visibility="visible"
+        android:visibility="gone"
         android:layout_gravity="top" />
 
 </FrameLayout>

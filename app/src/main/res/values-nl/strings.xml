@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Escapepod</string>
+    <string name="app_name">今球讲</string>
     <string name="dialog_add_podcast_button">Toevoegen</string>
     <string name="dialog_add_podcast_howto">Voer het adres in van een podcastfeed. Op de podcastwebsite in kwestie is dit een rss-pictogram.</string>
     <string name="dialog_add_podcast_input_hint">Voer podcastfeedadres in</string>
@@ -15,21 +15,11 @@
     <string name="dialog_error_title_no_network">Offline</string>
     <string name="dialog_error_title_podcast_duplicate">Podcast is al aanwezig</string>
     <string name="dialog_error_title_podcast_invalid_feed">Ongeldige podcastfeed</string>
-    <string name="dialog_find_podcast_button_add">Toevoegen</string>
-    <string name="dialog_find_podcast_hint">Naam of feedadres</string>
-    <string name="dialog_find_podcast_no_results">Geen resultaten gevonden.</string>
-    <string name="dialog_find_podcast_title">Podcast zoeken</string>
     <string name="dialog_generic_button_cancel">Annuleren</string>
     <string name="dialog_generic_button_okay">Oké</string>
     <string name="dialog_generic_details_button">Informatie tonen</string>
     <string name="dialog_generic_details_default">Geen informatie beschikbaar</string>
     <string name="dialog_yes_no_message_non_wifi_download">Je bent niet verbonden met een wifi-netwerk. Wil je de aflevering tóch downloaden\?</string>
-    <string name="dialog_opml_import_button_okay">Importeren</string>
-    <string name="dialog_opml_import_details_button">Informatie tonen</string>
-    <string name="dialog_opml_import_details_default">Geen informatie beschikbaar</string>
-    <string name="dialog_opml_import_message_error">Het opml-bestand kan niet worden geïmporteerd.</string>
-    <string name="dialog_opml_import_message">Wil je de podcasts toevoegen\? Duplicaten worden verwijderd alvorens het importeren. Aantal aangetroffen podcasts:</string>
-    <string name="dialog_opml_import_title">OPML importeren</string>
     <string name="dialog_yes_no_message_add_up_next">Wil je deze aflevering direct afspelen\?</string>
     <string name="dialog_yes_no_message_default">Weet je zeker dat je dit wilt doen\?</string>
     <string name="dialog_yes_no_message_delete_downloads">Wil je de gedownloade afleveringen verwijderen\? Je kunt ze altijd opnieuw downloaden.</string>
@@ -61,7 +51,6 @@
     <string name="toast_message_error_validation_missing_cover">RSS-goedkeuring: de feed bevat geen hoesverwijzing.</string>
     <string name="toast_message_debug_logging_to_file_started">Foutopsporing: gebeurtenissen wegschrijven naar een logbestand.</string>
     <string name="toast_message_debug_logging_to_file_stopped">Foutopsporing: gebeurtenissen niet langer wegschrijven naar een logbestand.</string>
-    <string name="toast_message_playback_speed_reset">Afspeelsnelheid hersteld.</string>
     <string name="toast_message_copied_to_clipboard">Het feedadres is gekopieerd naar het klembord.</string>
     <string name="toast_message_refreshing_cover">Bezig met vernieuwen van podcasthoes…</string>
     <string name="toast_message_skipping_disabled">Er wordt niks afgespeeld - overslaan is uitgeschakeld.</string>
@@ -95,7 +84,6 @@
     <string name="descr_expanded_player_forward_button">30 seconden vooruitspoelen</string>
     <string name="descr_expanded_player_next_chapter_button">Volgend hoofdstuk</string>
     <string name="descr_expanded_player_playback_button">Afspelen/Pauzeren</string>
-    <string name="descr_expanded_player_playback_speed_button">Afspeelsnelheid verhogen</string>
     <string name="descr_expanded_player_podcast_cover">Grote hoesafbeelding</string>
     <string name="descr_expanded_player_previous_chapter_button">Vorig hoofdstuk</string>
     <string name="descr_expanded_player_replay_button">10 seconden terugspoelen</string>
@@ -125,16 +113,9 @@
     <string name="fragment_settings_title">Instellingen</string>
     <string name="pref_delete_all_summary">Maak ruimte vrij door alle gedownloade afleveringen te verwijderen - je kunt ze altijd opnieuw downloaden.</string>
     <string name="pref_delete_all_title">Downloads verwijderen</string>
-    <string name="pref_opml_export_summary">Sla al je podcasts op in een opml-bestand zodat je ze kunt importeren in andere spelers.</string>
-    <string name="pref_opml_export_title">OPML-bestand exporteren</string>
     <string name="toast_message_install_file_helper">Installeer eerst een bestandsbeheerder of podcastspeler.</string>
-    <string name="toast_message_save_opml">Bezig met opslaan van collectie als opml…</string>
     <string name="dialog_episode_shownotes_feed">Feed</string>
     <string name="dialog_episode_shownotes_website">Website</string>
-    <string name="dialog_yes_no_message_update_covers">Wil je de nieuwste versie downloaden van alle podcasthoezen\?</string>
-    <string name="dialog_yes_no_positive_button_update_covers">Bijwerken</string>
-    <string name="pref_update_covers_summary">Download de nieuwste versie van alle podcasthoezen uit je collectie.</string>
-    <string name="pref_update_covers_title">Hoezen bijwerken</string>
     <string name="toast_message_error_download_error">Downloadfout</string>
     <string name="pref_report_issue_title">Probleem melden</string>
     <string name="pref_report_issue_summary">Meld bugs en deel je ideeën op Codeberg.</string>
@@ -147,14 +128,10 @@
     <string name="pref_app_version_title">Appversie</string>
     <string name="pref_app_version_summary">Versie</string>
     <string name="pref_about_title">Over</string>
-    <string name="pref_search_provider_selection_title">Zoekmachine</string>
-    <string name="pref_search_provider_selection_summary">Huidige zoekmachine:</string>
     <string name="pref_advanced_title">Geavanceerd</string>
     <string name="pref_delete_all_storage_space_used">Gebruikt</string>
     <string name="pref_delete_all_storage_space_available">Beschikbaar</string>
     <string name="toast_message_deleting_downloads">Bezig met verwijderen van gedownloade afleveringen…</string>
-    <string name="pref_opml_import_title">OPML importeren</string>
-    <string name="pref_opml_import_summary">Kies een opml-bestand van de apparaatopslag.</string>
     <string name="notification_dismiss">Melding verwerpen</string>
     <string name="toast_message_error_file_type_unknown">De download kan niet worden verwerkt. Bestandstype:</string>
     <string name="descr_expanded_player_shownotes_symbol">Aantekeningspictogram tonen</string>
@@ -162,9 +139,6 @@
     <string name="toast_message_entering_streaming_view">Geheime streamingweergave</string>
     <string name="dialog_all_episodes_list_title">Alle afleveringen | Alleen streaming</string>
     <string name="toast_message_downloading_all_episodes">Bezig met downloaden…</string>
-    <string name="pref_tap_anywhere_playback_summary_disabled">Druk op de afspeelknop om een aflevering te beluisteren.</string>
-    <string name="pref_tap_anywhere_playback_title">Druk op aflevering</string>
-    <string name="pref_tap_anywhere_playback_summary_enabled">Druk op een afleveringskaart om de aflevering te beluisteren.</string>
     <string name="dialog_yes_no_message_download_all_episodes">Wil je alle afleveringen downloaden\?</string>
     <string name="toast_message_total_number_of_episodes">Totaalaantal afleveringen in databank:</string>
     <string name="fragment_collection_title">Alle podcasts</string>

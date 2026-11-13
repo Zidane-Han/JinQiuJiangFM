@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- App Name -->
-    <string name="app_name">Escapepod</string>
+    <string name="app_name">今球讲</string>
     <!-- please do not translate app_name - transcription into different alphabet types is fine though -->
     <string name="app_version_name" translatable="false">\"Es ist einfach Rockmusik\"</string>
     <!-- Fragments -->
@@ -25,21 +25,11 @@
     <string name="dialog_error_title_no_network">Offline</string>
     <string name="dialog_error_title_podcast_duplicate">Duplicate Podcast</string>
     <string name="dialog_error_title_podcast_invalid_feed">Invalid Podcast Feed</string>
-    <string name="dialog_find_podcast_button_add">Add</string>
-    <string name="dialog_find_podcast_hint">Name or feed address</string>
-    <string name="dialog_find_podcast_no_results">No results found.</string>
-    <string name="dialog_find_podcast_title">Find Podcast</string>
     <string name="dialog_generic_button_cancel">Cancel</string>
     <string name="dialog_generic_button_close">Close</string>
     <string name="dialog_generic_button_okay">OK</string>
     <string name="dialog_generic_details_button">Show details</string>
     <string name="dialog_generic_details_default">No details available</string>
-    <string name="dialog_opml_import_button_okay">Import</string>
-    <string name="dialog_opml_import_details_button">Show details</string>
-    <string name="dialog_opml_import_details_default">No details available</string>
-    <string name="dialog_opml_import_message_error">Could not import OPML file. No podcasts found.</string>
-    <string name="dialog_opml_import_message">Add new podcasts? Duplicates will be removed before importing. Number of podcasts found:</string>
-    <string name="dialog_opml_import_title">OPML Import</string>
     <string name="dialog_podcast_description_feed">Feed</string>
     <string name="dialog_podcast_description_title">Description</string>
     <string name="dialog_podcast_description_website">Website</string>
@@ -51,7 +41,6 @@
     <string name="dialog_yes_no_message_mark_episode_played">Mark this episode as played?</string>
     <string name="dialog_yes_no_message_non_wifi_download">Your device is not connected to Wi-Fi. Download episode anyway?</string>
     <string name="dialog_yes_no_message_remove_podcast">Remove this podcast?</string>
-    <string name="dialog_yes_no_message_update_covers">Download latest version of all podcast covers?</string>
     <string name="dialog_yes_no_message_update_episodes">Look for new episodes?</string>
     <string name="dialog_yes_no_message_vpn_download">Your device is connected via VPN. Download episode anyway?</string>
     <string name="dialog_yes_no_negative_button_add_up_next">Add to \'Up Next\'</string>
@@ -65,7 +54,6 @@
     <string name="dialog_yes_no_positive_button_non_wifi_download">Download anyway</string>
     <string name="dialog_yes_no_positive_button_remove_podcast">Remove</string>
     <string name="dialog_yes_no_positive_button_update_collection">Update</string>
-    <string name="dialog_yes_no_positive_button_update_covers">Update</string>
     <string name="dialog_yes_no_positive_button_vpn_download">Download anyway</string>
     <string name="dialog_yes_no_title_default">Decide</string>
     <!-- Player -->
@@ -96,9 +84,7 @@
     <string name="toast_message_episode_list_filter_all">All Episodes</string>
     <string name="toast_message_episode_list_filter_downloaded">Downloaded Episodes</string>
     <string name="toast_message_install_file_helper">Please install a file manager or a podcast player first.</string>
-    <string name="toast_message_playback_speed_reset">Playback speed reset.</string>
     <string name="toast_message_refreshing_cover">Refreshing podcast cover.</string>
-    <string name="toast_message_save_opml">Saving podcast collection as OPML.</string>
     <string name="toast_message_skipping_disabled">Playback is not running. Skipping is turned off.</string>
     <string name="toast_message_sleep_timer_unable_to_start">Please start listening to an episode first.</string>
     <string name="toast_message_theme_day">Switching to \'Day mode\' (long press detected)</string>
@@ -149,26 +135,13 @@
     <string name="pref_episode_download_over_mobile_title">Download Over Mobile Network</string>
     <string name="pref_general_title">General</string>
     <string name="pref_maintenance_title">Maintenance</string>
-    <string name="pref_opml_export_summary">Save your podcasts feeds to an OPML file that can be imported into other players.</string>
-    <string name="pref_opml_export_title">Export OPML</string>
-    <string name="pref_opml_import_summary">Select an OPML file from device storage.</string>
-    <string name="pref_opml_import_title">Import OPML</string>
     <string name="pref_report_issue_summary">Report bugs and suggest improvements on Codeberg.</string>
     <string name="pref_report_issue_title">Report Issue</string>
-    <string name="pref_search_provider_selection_gpodder" translatable="false">gpodder.net </string>
-    <string name="pref_search_provider_selection_podcastindex" translatable="false">Podcastindex.org</string>
-    <string name="pref_search_provider_selection_summary">Currently using:</string>
-    <string name="pref_search_provider_selection_title">Search Provider</string>
-    <string name="pref_tap_anywhere_playback_summary_disabled">Tap on the play button to start listening to an episode.</string>
-    <string name="pref_tap_anywhere_playback_summary_enabled">Tap anywhere on the card of an episode to start listening to it.</string>
-    <string name="pref_tap_anywhere_playback_title">Tap On Episode</string>
     <string name="pref_theme_selection_mode_dark">Dark mode</string>
     <string name="pref_theme_selection_mode_device_default">Same as device</string>
     <string name="pref_theme_selection_mode_light">Light mode</string>
     <string name="pref_theme_selection_summary">Current theme:</string>
     <string name="pref_theme_selection_title">App Theme</string>
-    <string name="pref_update_covers_summary">Download the latest version of all podcast covers in your collection.</string>
-    <string name="pref_update_covers_title">Update Covers</string>
     <string name="pref_user_interface_transparency_effect_summary_enabled">Playback controls become transparent as you scroll.</string>
     <string name="pref_user_interface_transparency_effect_summary_disabled">Playback controls stay opaque during scrolling.</string>
     <string name="pref_user_interface_transparency_effect_title">User interface transparency effect</string>
@@ -188,7 +161,6 @@
     <string name="descr_expanded_player_forward_button">Forward 30 seconds</string>
     <string name="descr_expanded_player_next_chapter_button">Next chapter</string>
     <string name="descr_expanded_player_playback_button">Play/pause</string>
-    <string name="descr_expanded_player_playback_speed_button">Increase playback speed</string>
     <string name="descr_expanded_player_podcast_cover">Large podcast cover image</string>
     <string name="descr_expanded_player_previous_chapter_button">Previous chapter</string>
     <string name="descr_expanded_player_replay_button">Replay last 10 seconds</string>
@@ -215,7 +187,6 @@
     <string name="sample_text_episode_0_length" translatable="false">-18:00</string>
     <string name="sample_text_episode_0_title" translatable="false">As the Worm Turns</string>
     <string name="sample_text_episode_0_played_time" translatable="false">00:00</string>
-    <string name="sample_text_playback_speed" translatable="false">1.0 x</string>
     <string name="sample_text_podcast_name" translatable="false">Security Now</string>
     <string name="sample_text_podcast_description" translatable="false">Security Now could be the most important show you watch all week. Security guru Steve Gibson, the man who coined the term spyware and created the first anti-spyware program, joins Leo Laporte every week to guide us through the minefield of ransomware, viruses, cyber espionage, hacking, etc.</string>
     <string name="sample_text_podcast_xml" translatable="false">https://feeds.twit.tv/sn.xml</string>
@@ -223,4 +194,23 @@
     <string name="sample_text_sleep_timer_remaining_time" translatable="false">00:00</string>
     <string name="sample_text_up_next_name" translatable="false">Spieleveteranen - Jetzt labern die auch noch!</string>
 
+    <string name="catalogue_loading">正在刷新节目…</string>
+    <string name="catalogue_error">节目刷新失败，已缓存内容仍可使用。请检查网络后重试。</string>
+    <string name="catalogue_retry">重试</string>
+    <string name="brand_about">今球讲 0.9.0 · 基于 Escapepod · MIT © Y20K.org 2018–26</string>
+    <string name="open_source_license">开源许可</string>
+    <string name="programme_tagline">生存一分钟，\n看球六十秒</string>
+    <string name="programme_about_title">关于节目</string>
+    <string name="programme_about_summary">了解《今球讲》</string>
+    <string name="programme_about_description">生存一分钟，看球六十秒，欢迎来到《今球讲》，两位热爱运动的主播将在这里畅聊体育，通过聊天，和大家共同享受体育的魅力。节目会以排球作为主要话题，也会涉及其它运动，从最新的国际排坛动态到经典的排球战术分析，从球星的台前幕后故事到业余爱好者的趣味观点，我们无话不谈。无论你在旅途、运动、做家务还是休息，希望《今球讲》都会成为你生活中的最佳伙伴！</string>
+    <string name="player_collapse">收起播放器</string>
+    <string name="player_notes_loading">正在加载单集说明…</string>
+    <string name="player_notes_empty">本期暂无单集详情</string>
+    <string name="player_notes_error">单集说明读取失败</string>
+    <string name="player_notes_retry">重试</string>
+    <string name="player_episode_details">单集详情</string>
+    <string name="player_notes_image">Episode notes image</string>
+    <string name="player_timestamp_unavailable">Unable to jump to this timestamp right now.</string>
+    <string name="player_action_play">播放</string>
+    <string name="player_action_pause">暂停</string>
 </resources>

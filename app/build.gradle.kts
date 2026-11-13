@@ -4,15 +4,15 @@ plugins {
 }
 
 android {
-    namespace = "org.y20k.escapepod"
+    namespace = "com.jinqiujiang.fm"
     compileSdk = 37
 
     defaultConfig {
-        applicationId = "org.y20k.escapepod"
+        applicationId = "com.jinqiujiang.fm"
         minSdk = 25
         targetSdk = 37
-        versionCode = 54
-        versionName = "1.6.8"
+        versionCode = 14
+        versionName = "1.0.0"
     }
 
     androidResources {
@@ -26,13 +26,30 @@ android {
         targetCompatibility = JavaVersion.VERSION_17
     }
 
+    testOptions {
+        unitTests.isIncludeAndroidResources = true
+        unitTests.all {
+            it.systemProperty("robolectric.dependency.repo.url", "https://repo.maven.apache.org/maven2")
+        }
+    }
+
     buildFeatures {
         buildConfig = true
     }
 
 
+    val signingPassword = rootProject.file(".signing/password")
+    if (signingPassword.exists()) {
+        signingConfigs.create("podcastRelease") {
+            storeFile = rootProject.file(".signing/release.jks")
+            storePassword = signingPassword.readText().trim()
+            keyAlias = "jinqiujiang"
+            keyPassword = signingPassword.readText().trim()
+        }
+    }
     buildTypes {
         release {
+            if (signingPassword.exists()) signingConfig = signingConfigs.getByName("podcastRelease")
             optimization {
                 enable = true
             }
@@ -58,6 +75,8 @@ ksp {
 }
 
 dependencies {
+    testImplementation("junit:junit:4.13.2")
+    testImplementation("org.robolectric:robolectric:4.16")
 
     implementation(libs.kotlinx.coroutines.core)
     implementation(libs.kotlinx.coroutines.android)
@@ -86,7 +105,6 @@ dependencies {
     implementation(libs.androidx.work.runtime.ktx)
 
     implementation(libs.gson)
-    implementation(libs.volley)
 
     implementation(libs.glide)
 

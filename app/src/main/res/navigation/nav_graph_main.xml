@@ -9,7 +9,7 @@
     <!-- main_fragment_destination has no label attribute because it is not needed for the navigation -->
     <fragment
         android:id="@+id/main_fragment_destination"
-        android:name="org.y20k.escapepod.MainFragment"
+        android:name="com.jinqiujiang.fm.PodcastFragment"
         tools:layout="@layout/fragment_main">
         <action
             android:id="@+id/action_main_fragment_destination_to_podcast_fragment_destination"
@@ -22,14 +22,14 @@
     <!-- PODCAST FRAGMENT -->
     <fragment
         android:id="@+id/podcast_fragment_destination"
-        android:name="org.y20k.escapepod.PodcastFragment"
+        android:name="com.jinqiujiang.fm.PodcastFragment"
         android:label="@string/fragment_podcast_title"
         tools:layout="@layout/fragment_podcast" />
 
     <!-- SETTINGS FRAGMENT -->
     <fragment
         android:id="@+id/settings_fragment_destination"
-        android:name="org.y20k.escapepod.SettingsFragment"
+        android:name="com.jinqiujiang.fm.SettingsFragment"
         android:label="@string/fragment_settings_title"
         app:enterAnim="@anim/nav_default_enter_anim"
         app:exitAnim="@anim/nav_default_exit_anim"
